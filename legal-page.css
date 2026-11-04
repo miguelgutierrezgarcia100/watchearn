@@ -1,0 +1,31 @@
+/* Standalone legal pages (terms.html, privacy.html): readable, printable, same palette as the app. */
+@import url('fonts/fonts.css');
+:root{color-scheme:dark}*{box-sizing:border-box}
+body{margin:0;background:#101511;color:#e8eee4;font:15px/1.75 'DM Sans',system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+a{color:#d2f58c;text-underline-offset:3px}a:focus-visible,summary:focus-visible{outline:2px solid #d2f58c;outline-offset:5px}
+header,main,footer,.language-bar{width:min(760px,100%);margin:auto;padding:24px}
+header{display:flex;align-items:center;justify-content:space-between;gap:20px;border-bottom:1px solid #ffffff16}
+.brand{display:flex;align-items:center;gap:9px;color:#f3f7ef;font:800 20px Manrope,sans-serif;text-decoration:none}.brand img{width:30px;height:30px}
+.brand small{border:1px solid #cefa7a3b;border-radius:5px;padding:2px 6px;font-size:9px;letter-spacing:1px;color:#cefa7a}
+header>a:last-child{font-size:13px}
+.language-bar{padding-block:16px 0}
+.language-row{display:flex;gap:14px;align-items:center;justify-content:space-between;font-size:13px}
+.language-select{background:#222622;color:#f4f6f0;font:inherit;border:1px solid #ffffff30;border-radius:9px;padding:9px;max-width:70%}
+h1{font:800 clamp(28px,5vw,38px)/1.2 Manrope,sans-serif;letter-spacing:-1.1px;margin:15px 0 10px}
+h2{font-size:20px;line-height:1.4;margin:36px 0 12px;color:#f3f7ef}
+h3{font-size:16px;margin:30px 0 8px;color:#f3f7ef}
+p{margin:0 0 15px;color:#bdc9b6}li{color:#bdc9b6;margin:8px 0}ul{padding-left:21px}strong{color:#e8eee4}
+.meta,.terms-version{font-size:12px;color:#94a28c}
+.legal-summary{padding:17px 18px;margin:20px 0;border:1px solid #d2f58c24;border-radius:14px;background:#d2f58c05}.legal-summary ul{margin:0}.legal-summary li{font-size:14px}.legal-summary p{margin:0 0 6px}
+.legal-pending{color:#f0d690;font-weight:650;background:#e6c7771a;border-radius:5px;padding:0 4px}
+.legal-language-note{padding:14px 16px;border:1px solid #e6c77750;border-radius:12px;background:#e6c7770b;color:#f0d690;font-size:14px}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:19px 0}
+th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #ffffff16;vertical-align:top;overflow-wrap:anywhere}th{color:#dce7d2}td{color:#bdc9b6}
+code{font-size:12px;color:#dce7d2;overflow-wrap:anywhere}
+.rules-example{display:flex;justify-content:space-between;gap:10px;padding:12px 14px;border:1px solid #ffffff16;border-radius:12px;font-size:13px}
+details.formula{margin:0 0 15px}details.formula summary{color:#d2f58c;cursor:pointer}details.formula p{font-size:13px;margin-top:10px}
+footer{border-top:1px solid #ffffff16;font-size:12px;color:#94a28c;margin-top:30px;padding-bottom:40px}
+html[dir=rtl] th,html[dir=rtl] td{text-align:start}
+@media(max-width:480px){header,main,footer,.language-bar{padding-inline:16px}body{font-size:14px}header>a:last-child{font-size:12px}h2{font-size:18px}th,td{padding:9px 5px;font-size:12px}}
+@media print{:root{color-scheme:light}body{background:#fff;color:#000}p,li,td,th,strong,h1,h2,h3,.meta,.terms-version{color:#000}a{color:#000}header>a:last-child,.language-bar,footer a{display:none}.legal-summary,.legal-language-note{border-color:#999;background:none;color:#000}}
+.legal-currencies{font-size:12px;line-height:1.9;color:#bdc9b6}.legal-currencies span{white-space:nowrap}

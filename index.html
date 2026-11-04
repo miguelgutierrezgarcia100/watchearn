@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es" data-page="about">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#101211">
+  <meta name="description" content="WatchEarn: app gratuita de vídeos cortos y minijuegos en la que ganas monedas canjeables. Cómo funciona, anuncios, datos y contacto.">
+  <title>WatchEarn · Vídeos cortos y monedas</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="legal-page.css">
+  <link rel="stylesheet" href="about.css">
+  <script src="currency.js"></script><script src="locales.js"></script><script src="i18n.js"></script>
+</head>
+<body>
+  <!-- Página pública de la app (sitio web del desarrollador en Google Play). Se publica con: npm run site (ver docs/SITE.md). -->
+  <header><a class="brand" href="./"><img src="icon.svg" alt="">WatchEarn <small>BETA</small></a><a href="#contacto">Contacto y soporte</a></header>
+  <div class="language-bar" data-language></div>
+  <main>
+    <section class="hero">
+      <img class="hero-icon" src="icon.svg" alt="" width="72" height="72">
+      <h1>Mira vídeos cortos y gana monedas</h1>
+      <p class="lead">WatchEarn es una app gratuita de vídeos cortos y minijuegos. Ganas monedas al ver vídeos, completar tareas y abrir cofres, y puedes canjearlas por dinero por PayPal o Bizum.</p>
+      <div class="actions">
+        <!-- Cuando la app esté publicada, pon en href su enlace: https://play.google.com/store/apps/details?id=com.watchearn.app -->
+        <a class="button" id="play" href="" hidden>Descargar en Google Play</a>
+        <span class="button soon" id="play-soon">Próximamente en Google Play</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Cómo conseguir monedas</h2>
+      <div class="cards">
+        <article class="card">
+          <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="2.5" width="14" height="19" rx="3.5"/><path d="M10.2 9.2v5.6l4.6-2.8z"/></svg>
+          <h3>Mira vídeos</h3>
+          <p>Cada segundo que ves de un vídeo nuevo suma monedas. Desliza hacia arriba para pasar al siguiente.</p>
+        </article>
+        <article class="card">
+          <img class="card-icon" src="chest.svg" alt="">
+          <h3>Juega cada día</h3>
+          <p>Ruleta, rasca, memoria y reflejos: tres partidas gratis al día en cada juego.</p>
+        </article>
+        <article class="card">
+          <img class="card-icon" src="coin.svg" alt="">
+          <h3>Monedas canjeables</h3>
+          <p id="redeem" data-no-i18n></p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Antes de empezar</h2>
+      <div class="facts">
+        <p class="fact"><strong id="hours-title" data-no-i18n></strong><span id="hours-info" data-no-i18n></span></p>
+        <p class="fact"><strong>Revisión manual</strong><span id="payout" data-no-i18n></span><span>Revisamos cada solicitud antes de pagar. Podemos pedirte que acredites tu identidad, edad y residencia.</span></p>
+        <p class="fact"><strong>Tu saldo vive en este dispositivo</strong><span>Si borras los datos del navegador o de la app, la desinstalas o cambias de dispositivo, se pierde y no podemos recuperarlo.</span></p>
+        <p class="fact"><strong id="adults">Solo mayores de 18 años</strong><span id="countries" data-no-i18n></span><span>Todo es gratuito: sin compras ni apuestas. Las trampas anulan las monedas.</span></p>
+      </div>
+    </section>
+
+    <section id="anuncios">
+      <h2>Anuncios en la app</h2>
+      <p>La app para Android muestra anuncios de AppLovin: vídeos con recompensa, que son opcionales, y anuncios entre vídeos. Pulsar un anuncio no da monedas.</p>
+      <p>Para mostrarlos, AppLovin recibe datos del dispositivo, como el identificador de publicidad y tu interacción con los anuncios. Puedes rechazar los anuncios personalizados al abrir la app o después, en Ajustes → Anuncios personalizados.</p>
+    </section>
+
+    <section id="datos">
+      <h2>Tus datos</h2>
+      <p>No hay cuentas ni registro: WatchEarn guarda tu saldo y tu actividad solo en tu dispositivo. Para borrarlos, usa Ajustes → Borrar mis datos o desinstala la app.</p>
+      <p>Si nos has escrito, por ejemplo para pedir una retirada, puedes pedirnos por correo una copia de esos datos o que los borremos, salvo los que la ley nos obligue a conservar.</p>
+      <p class="links"><a href="privacy.html">Política de privacidad</a> · <a href="terms.html">Condiciones de uso</a></p>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto y soporte</h2>
+      <p>Escríbenos para cualquier duda, problema con la app o retirada.</p>
+      <p class="contact-email" id="email" data-no-i18n></p>
+      <dl class="operator" id="operator" data-no-i18n></dl>
+    </section>
+  </main>
+  <footer><span data-no-i18n>WatchEarn · </span><a href="terms.html">Condiciones de uso</a> · <a href="privacy.html">Política de privacidad</a></footer>
+  <script src="legal-config.js"></script><script src="economy.js"></script><script src="legal.js"></script><script src="legal-text/es.js"></script><script src="about.js"></script>
+</body>
+</html>
