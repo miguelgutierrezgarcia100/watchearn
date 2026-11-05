@@ -1,5 +1,5 @@
 'use strict';
-// Explicit, continuous reward schedule. Coins are redeemable at 1,000 = 1 € under the beta terms (legal.js).
+// Explicit, continuous reward schedule. Coins are redeemable at 1,000 = 1 € under the terms (legal.js).
 const CliplyEconomy = Object.freeze({
   version: 7,
   coinsPerEuro: 1000,

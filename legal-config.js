@@ -1,5 +1,5 @@
 'use strict';
-// Datos del titular y parámetros de la beta. RELLÉNALOS ANTES DE PUBLICAR: aparecen en las Condiciones,
+// Datos del titular y parámetros del servicio. RELLÉNALOS ANTES DE PUBLICAR: aparecen en las Condiciones,
 // la Política de privacidad, los Ajustes y las solicitudes de retirada. Un campo vacío se muestra como
 // «pendiente» y, si falta el correo, las retiradas quedan desactivadas. Comprueba con: npm run check-launch
 const WatchEarnLegal = Object.freeze({
@@ -14,7 +14,7 @@ const WatchEarnLegal = Object.freeze({
   countries: ['ES'],        // Países (códigos ISO) cuyos residentes pueden participar y cobrar, p. ej. ['ES', 'PT', 'GB']
   minAge: 18,
   payoutDays: 30,           // Plazo máximo para pagar una retirada válida, en días naturales
-  closingNoticeDays: 30,    // Preaviso mínimo antes de cerrar la beta
+  closingNoticeDays: 30,    // Preaviso mínimo antes de cerrar el servicio
   closingClaimDays: 60,     // Plazo para solicitar el saldo canjeable tras el cierre
   adr: ''                   // Sistema de resolución alternativa de litigios al que estés adherido (vacío si ninguno)
 });

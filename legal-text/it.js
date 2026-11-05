@@ -6,7 +6,7 @@ Legal.add('it', {
   registry: ', iscritta presso {registry}',
   adrYes: 'Aderiamo a {adr}.',
   adrNo: 'Non aderiamo ad alcun sistema di risoluzione alternativa delle controversie dei consumatori.',
-  version: 'Versione {version} · In vigore dal {date}',
+  version: 'Versione {version} · Ultimo aggiornamento: {date}',
   rules: {
     intro: 'Fino a {c25} monete, il fattore dei premi scende da {f0} a {f25} del loro valore base; fino a {c30}, a {f30}; fino a {c40}, a {f40}; poi il calo accelera. Da {c45} monete, un secondo freno progressivo riduce tutte le ricompense fino a dividerle per 300 a {c50}. Nessun premio singolo supera {max} monete.',
     reference: 'Il tuo riferimento attuale · 5 secondi di video',
@@ -18,7 +18,7 @@ Legal.add('it', {
     title: 'Condizioni d’uso',
     summaryTitle: '**L’essenziale** (questo riepilogo non sostituisce il testo completo):',
     summary: [
-      'WatchEarn è gratuito ed è in fase beta. Solo per maggiori di {age} anni residenti in {countries}.',
+      'WatchEarn è gratuito. Solo per maggiori di {age} anni residenti in {countries}.',
       '{c1} monete = {rate}. Il primo prelievo è di {goal} e viene verificato manualmente prima del pagamento.',
       '**Le ricompense diminuiscono.** Arrivare al primo prelievo richiede circa {range} ore di uso attivo; l’ultimo 10% dell’obiettivo, da solo, oltre {last} ore. Non è una fonte di reddito.',
       'Il tuo saldo è salvato solo su questo dispositivo (nel browser o nell’app). Se cancelli i dati, disinstalli l’app o cambi dispositivo, va perso e non possiamo recuperarlo.',
@@ -28,9 +28,9 @@ Legal.add('it', {
       ['1. Titolare del servizio', [
         'WatchEarn è un servizio fornito da {name}, codice fiscale {taxId}, con sede in {address}{registry}. E-mail di contatto: {email}. Informazioni fornite ai sensi dell’articolo 10 della legge spagnola 34/2002 sui servizi della società dell’informazione e il commercio elettronico (LSSI).'
       ]],
-      ['2. Oggetto, fase beta e accettazione', [
-        'Queste condizioni regolano l’uso dell’app web WatchEarn durante la fase beta: un servizio gratuito in cui guardi brevi video, completi attività e giochi e accumuli monete riscattabili in denaro secondo la sezione 6. Non è richiesto alcun acquisto, pagamento o abbonamento.',
-        'La beta è una versione di prova: può avere errori e interruzioni e cambiare secondo la sezione 9. Non garantiamo la sua disponibilità continua.',
+      ['2. Oggetto e accettazione', [
+        'Queste condizioni regolano l’uso di WatchEarn: un servizio gratuito in cui guardi brevi video, completi attività e giochi e accumuli monete riscattabili in denaro secondo la sezione 6. Non è richiesto alcun acquisto, pagamento o abbonamento.',
+        'Il servizio può avere errori e interruzioni e cambiare secondo la sezione 9. Non garantiamo la sua disponibilità continua.',
         'Per accettare queste condizioni, tocca «Ho letto e accetto». Accettandole dichiari di soddisfare i requisiti della sezione 3. Senza accettarle i video non vengono riprodotti e non si ottengono ricompense. Salviamo nel tuo browser la versione accettata e la data.',
         'Non archiviamo una copia individuale della tua accettazione: queste condizioni sono sempre disponibili nella pagina [Condizioni d’uso](terms.html), dove puoi salvarle o stamparle (articolo 27 LSSI). Sono offerte in più lingue; se una traduzione è diversa, prevale la versione spagnola.'
       ]],
@@ -58,22 +58,22 @@ Legal.add('it', {
       ]],
       ['7. Uso corretto e prevenzione delle frodi', [
         'Non è consentito ottenere monete tramite bot, script, emulatori o qualsiasi automazione; manipolare l’archiviazione, il codice, l’orologio del dispositivo o le richieste dell’app; sfruttare errori; usare più profili per moltiplicare le ricompense; né vendere o cedere monete o profili.',
-        'Se rileviamo questi comportamenti, potremo annullare le monete ottenute indebitamente, rifiutare i prelievi interessati ed escluderti dalla beta, in modo proporzionato e comunicandoti il motivo quando possibile. Possiamo anche correggere importi accreditati per un errore tecnico evidente.'
+        'Se rileviamo questi comportamenti, potremo annullare le monete ottenute indebitamente, rifiutare i prelievi interessati ed escluderti dal servizio, in modo proporzionato e comunicandoti il motivo quando possibile. Possiamo anche correggere importi accreditati per un errore tecnico evidente.'
       ]],
       ['8. Contenuti e proprietà intellettuale', [
         'I video appartengono ai loro creatori e titolari dei diritti; WatchEarn mostra il nome del creatore e un link all’originale. Non ricevi alcun diritto su di essi: puoi solo guardarli nell’app, per uso personale. I link a YouTube e ad altri siti portano a servizi di terzi con le proprie condizioni.',
         'Se sei titolare di diritti e ritieni che un contenuto sia usato senza autorizzazione, scrivici a {email} indicando il contenuto, i tuoi diritti e i tuoi recapiti. Lo rimuoveremo con diligenza non appena avremo effettiva conoscenza della sua illiceità.',
         'Il nome, il design e il codice di WatchEarn appartengono al titolare, salvo le risorse di terzi con licenza propria, come i font DM Sans e Manrope (SIL Open Font License).'
       ]],
-      ['9. Modifiche e fine della beta', [
+      ['9. Modifiche e chiusura del servizio', [
         'Possiamo modificare il servizio, le ricompense o queste condizioni per motivi validi (legali, tecnici, di sicurezza, prevenzione delle frodi, sostenibilità o evoluzione del servizio), avvisandoti nell’app con almeno 15 giorni di anticipo, salvo modifiche urgenti imposte dalla legge o dalla sicurezza. Per continuare a usare l’app dovrai accettare la nuova versione; se non la accetti, puoi smettere di usarla e richiedere i prelievi a cui avevi già diritto. Le monete già ottenute conservano il loro valore di riscatto.',
-        'Annunceremo la chiusura della beta con almeno {noticeDays} giorni di anticipo e potrai richiedere il prelievo del saldo che raggiunge la soglia fino a {claimDays} giorni dopo la chiusura. **Il saldo inferiore al primo prelievo non è riscattabile e si estingue alla chiusura della beta.**'
+        'Se chiuderemo il servizio, lo annunceremo con almeno {noticeDays} giorni di anticipo e potrai richiedere il prelievo del saldo che raggiunge la soglia fino a {claimDays} giorni dopo la chiusura. **Il saldo inferiore al primo prelievo non è riscattabile e si estingue alla chiusura del servizio.**'
       ]],
       ['10. Responsabilità', [
         'Rispondiamo dei danni causati da dolo o colpa grave e di quelli la cui responsabilità non può essere esclusa per legge. Non rispondiamo delle interruzioni indipendenti dalla nostra volontà né della perdita del saldo dovuta alla cancellazione dei dati del browser, alla navigazione privata o al cambio di dispositivo. Nulla in queste condizioni limita i tuoi diritti di consumatore.'
       ]],
       ['11. Durata, recesso e diritto di ripensamento', [
-        'Il contratto dura finché usi il servizio e, al massimo, fino alla chiusura della beta. Puoi smettere di usare WatchEarn quando vuoi, senza costi, e cancellare tutti i suoi dati da Impostazioni → Elimina i miei dati. Puoi anche recedere dal contratto entro i 14 giorni di calendario previsti dall’articolo 102 della legge generale spagnola per la tutela dei consumatori e degli utenti, senza indicarne il motivo: basta smettere di usare l’app e, se vuoi, comunicarcelo. Possiamo risolvere il contratto se violi queste condizioni, comunicandoti il motivo.'
+        'Il contratto dura finché usi il servizio e, al massimo, fino alla chiusura del servizio. Puoi smettere di usare WatchEarn quando vuoi, senza costi, e cancellare tutti i suoi dati da Impostazioni → Elimina i miei dati. Puoi anche recedere dal contratto entro i 14 giorni di calendario previsti dall’articolo 102 della legge generale spagnola per la tutela dei consumatori e degli utenti, senza indicarne il motivo: basta smettere di usare l’app e, se vuoi, comunicarcelo. Possiamo risolvere il contratto se violi queste condizioni, comunicandoti il motivo.'
       ]],
       ['12. Privacy', [
         'Il trattamento dei tuoi dati è descritto nell’[Informativa sulla privacy](privacy.html).'
@@ -98,6 +98,7 @@ Legal.add('it', {
   privacy: {
     title: 'Informativa sulla privacy',
     summaryTitle: '**L’essenziale**',
+    intro: 'WatchEarn («noi») si impegna a proteggere la tua privacy. Questa informativa spiega quali informazioni raccogliamo, come le usiamo e come le proteggiamo quando usi WatchEarn, compresi i servizi di terzi integrati nell’app.',
     summary: [
       'Nessuna registrazione né account: i tuoi progressi sono salvati sul tuo dispositivo e non li riceviamo.',
       'Trattiamo dati personali solo se ci scrivi o richiedi un prelievo.',
@@ -105,16 +106,15 @@ Legal.add('it', {
       'Puoi cancellare i tuoi dati da Impostazioni → Elimina i miei dati ed esercitare i tuoi diritti scrivendoci.'
     ],
     sections: [
-      ['1. Titolare del trattamento', [
-        '{name}, codice fiscale {taxId}, con sede in {address}{registry}. E-mail di contatto e per la privacy: {email}.'
+      ['1. Informazioni che raccogliamo', [
+        '**1.1 Dati personali.** Se ci invii una richiesta di prelievo o ci scrivi, trattiamo il tuo indirizzo e-mail, il tuo nome, i dati del tuo conto di pagamento (numero Bizum o e-mail PayPal), il tuo paese di residenza, codice, importo e data della richiesta e il contenuto dei messaggi. Se necessario per verificare i requisiti, possiamo chiederti informazioni che provino identità, età e residenza, solo quelle indispensabili.',
+        '**1.2 Dati di utilizzo.** L’app salva nell’archiviazione locale del tuo browser saldo, movimenti, attività, giochi, video salvati, ordine del feed, tempo di visione, premi in sospeso, richieste di prelievo, impostazioni e lingua, oltre a versione e data delle condizioni accettate, nei record `watchearn-v1`, `watchearn-terms` e `watchearn-language`. Non vengono inviati ai nostri server e non vi abbiamo accesso.',
+        '**1.3 Dati del dispositivo.** Nell’app per Android, l’SDK pubblicitario di AppLovin raccoglie dati tecnici del dispositivo, come l’identificativo pubblicitario, l’indirizzo IP, il modello e il sistema operativo (sezione 3). Se visiti il sito web di WatchEarn, il fornitore di hosting ({hosting}) riceve il tuo indirizzo IP, la pagina richiesta, la data e l’ora e dati tecnici del browser per servirlo e proteggerlo. La valuta e la lingua sono scelte in base al fuso orario e alle lingue del tuo dispositivo, senza inviarli a nessuno né usare la tua posizione.',
+        '**1.4 Link.** Se apri un video originale vai su YouTube, che tratta i tuoi dati secondo la propria informativa. Se usi Condividi, titolo e link vengono passati alla funzione di condivisione del tuo dispositivo.',
+        'Non raccogliamo dati sensibili, come l’origine etnica, le convinzioni religiose, la salute o i dati biometrici, e ti chiediamo di non inviarceli.',
+        '**Archiviazione locale e cookie.** WatchEarn non usa cookie. I registri locali sono strettamente necessari per fornire il servizio che richiedi e quindi non richiedono consenso (articolo 22.2 LSSI). Il sito web non ha analisi, pubblicità né tracciamento di terzi. Nell’app per Android, l’SDK di AppLovin salva e legge informazioni sul tuo dispositivo per mostrare annunci (sezione 3).'
       ]],
-      ['2. Quali dati trattiamo', [
-        '**Sul tuo dispositivo.** L’app salva nell’archiviazione locale del tuo browser saldo, movimenti, attività, giochi, video salvati, ordine del feed, tempo di visione, premi in sospeso, richieste di prelievo, impostazioni e lingua, oltre a versione e data delle condizioni accettate, nei record `watchearn-v1`, `watchearn-terms` e `watchearn-language`. Non vengono inviati ai nostri server e non vi abbiamo accesso.',
-        '**Prelievi e messaggi.** Se ci invii una richiesta di prelievo o ci scrivi, trattiamo il tuo indirizzo e-mail, il tuo nome, i dati del tuo conto di pagamento (numero Bizum o e-mail PayPal), il tuo paese di residenza, codice, importo e data della richiesta e il contenuto dei messaggi. Se necessario per verificare i requisiti, possiamo chiederti informazioni che provino identità, età e residenza, solo quelle indispensabili.',
-        '**Connessione.** Al caricamento dell’app, il fornitore di hosting ({hosting}) riceve il tuo indirizzo IP, la pagina richiesta, data e ora e dati tecnici del browser per servire il sito e proteggerlo. Valuta e lingua sono scelte in base al fuso orario e alle lingue del tuo dispositivo, senza inviarli a nessuno né usare la tua posizione.',
-        '**Link.** Se apri un video originale vai su YouTube, che tratta i tuoi dati secondo la propria informativa. Se usi Condividi, titolo e link vengono passati alla funzione di condivisione del tuo dispositivo.'
-      ]],
-      ['3. Finalità e basi giuridiche', [
+      ['2. Come usiamo le tue informazioni', [
         [
           'Fornire il servizio (video, ricompense, impostazioni e accettazione delle condizioni): esecuzione del contratto (art. 6.1.b GDPR).',
           'Gestire, verificare e pagare i prelievi: esecuzione del contratto (art. 6.1.b GDPR).',
@@ -123,15 +123,30 @@ Legal.add('it', {
           'Adempiere agli obblighi contabili e fiscali dei pagamenti: obbligo legale (art. 6.1.c GDPR).',
           'Servire il sito in sicurezza: legittimo interesse (art. 6.1.f GDPR).'
         ],
-        'Non creiamo profili né prendiamo decisioni basate unicamente su un trattamento automatizzato: ogni prelievo è esaminato da una persona. Nell’app per Android, AppLovin e i suoi partner personalizzano gli annunci solo se dai il tuo consenso (sezione 11).'
+        'Non creiamo profili né prendiamo decisioni basate unicamente su un trattamento automatizzato: ogni prelievo è esaminato da una persona. Nell’app per Android, AppLovin e i suoi partner personalizzano gli annunci solo se dai il tuo consenso (sezione 3).'
       ]],
-      ['4. Destinatari', [
-        'I fornitori di hosting e di posta elettronica del titolare, come responsabili del trattamento; PayPal o la banca che elabora il pagamento, come titolari autonomi; nell’app per Android, AppLovin e le reti pubblicitarie della sua mediazione (sezione 11); e le autorità quando lo richiede la legge. Non vendiamo i tuoi dati.'
+      ['3. Servizi e SDK di terzi', [
+        '**Chi.** L’app per Android integra l’SDK AppLovin MAX di AppLovin Corporation, che fornisce gli annunci direttamente o tramite le reti pubblicitarie della sua mediazione. AppLovin e tali reti trattano i dati come titolari autonomi, secondo le proprie informative ([informativa sulla privacy di AppLovin](https://legal.applovin.com/privacy/)). Non riceviamo questi dati in una forma che ti identifichi, ma solo report aggregati su annunci e ricavi.',
+        '**Quali dati.** L’identificativo pubblicitario del tuo dispositivo (a meno che tu non l’abbia eliminato nelle impostazioni di Android), l’indirizzo IP, il modello e il sistema operativo, la lingua, il fuso orario, l’operatore e il tipo di connessione, l’app e gli annunci mostrati e le tue interazioni con essi (visualizzazioni, clic e ricompense).',
+        '**Finalità e basi giuridiche.** Mostrare annunci non personalizzati, limitarne la frequenza, misurarli, accreditare le ricompense e prevenire le frodi pubblicitarie: legittimo interesse a finanziare il servizio gratuito e a proteggerlo (art. 6.1.f GDPR). Mostrare annunci personalizzati in base ai tuoi interessi e misurarli: solo con il tuo consenso (art. 6.1.a GDPR).',
+        '**La tua scelta.** La prima volta che apri l’app ti chiediamo se accetti gli annunci personalizzati; rifiutare è altrettanto facile e non ti impedisce di usare l’app né di ottenere ricompense. Puoi revocare o dare il consenso quando vuoi in Impostazioni → Annunci personalizzati, e reimpostare o eliminare il tuo identificativo pubblicitario nelle impostazioni di Android. Puoi anche opporti al trattamento basato sul legittimo interesse scrivendoci.',
+        '**Trasferimenti e conservazione.** AppLovin e alcune reti trattano dati negli Stati Uniti e in altri paesi al di fuori dello Spazio economico europeo, con le garanzie del capo V del GDPR (come il quadro UE-USA per la protezione dei dati o le clausole contrattuali tipo). Li conservano per i periodi indicati nelle loro informative.',
+        'Ti consigliamo di leggere le informative sulla privacy di questi terzi:',
+        [
+          'AppLovin (pubblicità, SDK AppLovin MAX): [informativa sulla privacy](https://legal.applovin.com/privacy/)',
+          'Google (Google Play, da cui scarichi l’app, e l’identificativo pubblicitario di Android; YouTube, se apri un video originale): [norme sulla privacy](https://policies.google.com/privacy)',
+          'GitHub (hosting del sito web): [informativa sulla privacy](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement)'
+        ],
+        'Non integriamo altri SDK di analisi, attribuzione o pubblicità. Se ne aggiungeremo uno, lo includeremo in questo elenco prima di attivarlo.'
       ]],
-      ['5. Trasferimenti internazionali', [
-        'Se un fornitore tratta dati fuori dallo Spazio economico europeo, lo farà con le garanzie del capo V del GDPR, come una decisione di adeguatezza o le clausole contrattuali tipo della Commissione europea.'
+      ['4. Con chi condividiamo le tue informazioni', [
+        'I fornitori di hosting e di posta elettronica del titolare, come responsabili del trattamento; PayPal o la banca che elabora il pagamento, come titolari autonomi; nell’app per Android, AppLovin e le reti pubblicitarie della sua mediazione (sezione 3); e le autorità quando lo richiede la legge. Non vendiamo i tuoi dati.',
+        'Possiamo inoltre comunicare dati quando lo richiedano la legge, un ordine dell’autorità giudiziaria o un’autorità; per tutelare i nostri diritti, gli utenti o terzi da frodi o attività illecite; e, se il servizio viene trasferito a un altro titolare, al nuovo titolare, che dovrà rispettare questa informativa. Ti avviseremo prima di tale trasferimento.',
+        '**Trasferimenti internazionali.** Se un fornitore tratta dati fuori dallo Spazio economico europeo, lo farà con le garanzie del capo V del GDPR, come una decisione di adeguatezza o le clausole contrattuali tipo della Commissione europea.'
       ]],
-      ['6. Conservazione', [
+      ['5. Sicurezza e conservazione', [
+        'Le pagine web di WatchEarn sono servite tramite HTTPS. Le email con richieste di prelievo e dati di pagamento sono conservate in una casella di posta protetta, a cui accede solo il titolare, e sono usate solo per elaborare i pagamenti. I dati dell’app non sono cifrati sul tuo dispositivo: chi vi ha accesso potrebbe vederli o modificarli. Nessun sistema garantisce una sicurezza assoluta.',
+        '**Conservazione.** Conserviamo ogni dato solo per il tempo necessario:',
         [
           'Dati del tuo dispositivo: finché non li cancelli.',
           'Richieste di prelievo e pagamenti: il tempo necessario a gestirli e poi bloccati per i termini di legge (in genere 4 anni in materia fiscale e 6 anni per la contabilità).',
@@ -139,27 +154,19 @@ Legal.add('it', {
           'Log tecnici: il periodo applicato dal fornitore di hosting.'
         ]
       ]],
-      ['7. Sicurezza', [
-        'Il sito è servito tramite HTTPS. I dati locali non sono cifrati all’interno dell’app: chi ha accesso al tuo browser potrebbe vederli o modificarli. Nessun sistema garantisce una sicurezza assoluta.'
-      ]],
-      ['8. Minori', [
+      ['6. Minori', [
         'WatchEarn è solo per maggiori di {age} anni. Se scopriamo che una richiesta proviene da un minore, la rifiuteremo e cancelleremo i suoi dati, salvo quelli che dobbiamo conservare per legge.'
       ]],
-      ['9. I tuoi diritti', [
+      ['7. I tuoi diritti e le tue scelte', [
+        'Puoi usare WatchEarn senza fornirci alcun dato personale: ci servono solo se ci scrivi o richiedi un prelievo.',
         'Puoi esercitare i diritti di accesso, rettifica, cancellazione, opposizione, limitazione e portabilità scrivendo a {email}. Rispondiamo entro un mese, prorogabile di altri due mesi nei casi complessi. Puoi cancellare tu stesso i dati del tuo dispositivo in Impostazioni → Elimina i miei dati. Puoi anche presentare reclamo all’[Agenzia spagnola per la protezione dei dati (AEPD)](https://www.aepd.es/) o all’autorità per la protezione dei dati del tuo paese.'
       ]],
-      ['10. Archiviazione locale e cookie', [
-        'WatchEarn non usa cookie. I registri locali sono strettamente necessari per fornire il servizio che richiedi e quindi non richiedono consenso (articolo 22.2 LSSI). Il sito web non ha analisi, pubblicità né tracciamento di terzi. Nell’app per Android, l’SDK di AppLovin salva e legge informazioni sul tuo dispositivo per mostrare annunci (sezione 11).'
-      ]],
-      ['11. Pubblicità nell’app per Android', [
-        '**Chi.** L’app per Android integra l’SDK AppLovin MAX di AppLovin Corporation, che fornisce gli annunci direttamente o tramite le reti pubblicitarie della sua mediazione. AppLovin e tali reti trattano i dati come titolari autonomi, secondo le proprie informative ([informativa sulla privacy di AppLovin](https://www.applovin.com/privacy/)). Non riceviamo questi dati in una forma che ti identifichi, ma solo report aggregati su annunci e ricavi.',
-        '**Quali dati.** L’identificativo pubblicitario del tuo dispositivo (a meno che tu non l’abbia eliminato nelle impostazioni di Android), l’indirizzo IP, il modello e il sistema operativo, la lingua, il fuso orario, l’operatore e il tipo di connessione, l’app e gli annunci mostrati e le tue interazioni con essi (visualizzazioni, clic e ricompense).',
-        '**Finalità e basi giuridiche.** Mostrare annunci non personalizzati, limitarne la frequenza, misurarli, accreditare le ricompense e prevenire le frodi pubblicitarie: legittimo interesse a finanziare il servizio gratuito e a proteggerlo (art. 6.1.f GDPR). Mostrare annunci personalizzati in base ai tuoi interessi e misurarli: solo con il tuo consenso (art. 6.1.a GDPR).',
-        '**La tua scelta.** La prima volta che apri l’app ti chiediamo se accetti gli annunci personalizzati; rifiutare è altrettanto facile e non ti impedisce di usare l’app né di ottenere ricompense. Puoi revocare o dare il consenso quando vuoi in Impostazioni → Annunci personalizzati, e reimpostare o eliminare il tuo identificativo pubblicitario nelle impostazioni di Android. Puoi anche opporti al trattamento basato sul legittimo interesse scrivendoci.',
-        '**Trasferimenti e conservazione.** AppLovin e alcune reti trattano dati negli Stati Uniti e in altri paesi al di fuori dello Spazio economico europeo, con le garanzie del capo V del GDPR (come il quadro UE-USA per la protezione dei dati o le clausole contrattuali tipo). Li conservano per i periodi indicati nelle loro informative.'
-      ]],
-      ['12. Modifiche', [
+      ['8. Modifiche', [
         'Se modifichiamo questa informativa, aggiorneremo versione e data e ti avviseremo nell’app delle modifiche rilevanti. Se un nuovo trattamento richiede il tuo consenso, te lo chiederemo prima di attivarlo.'
+      ]],
+      ['9. Contatti', [
+        '**Titolare del trattamento.** {name}, codice fiscale {taxId}, con sede in {address}{registry}. E-mail di contatto e per la privacy: {email}.',
+        'Per domande, dubbi o richieste su questa informativa o sul trattamento dei tuoi dati, scrivici a {email}.'
       ]]
     ]
   }

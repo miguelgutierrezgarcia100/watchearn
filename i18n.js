@@ -20,7 +20,9 @@ const I18n = (() => {
     for (const tag of preferences || []) { const code = match(tag); if (code) return {code, tag: tag.replace(/_/g,'-')}; }
     return {code:'en', tag:'en'};
   }
-  let preference = 'auto';
+  // Until the user picks a language, the interface is in English. 'auto' (Automatic · device) follows the device languages.
+  const defaultPreference = 'en';
+  let preference = defaultPreference;
   try { const saved=localStorage.getItem(storageKey); if(saved==='auto'||supported.has(saved))preference=saved; } catch {}
   let code, locale;
   function resolve() {

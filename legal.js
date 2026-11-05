@@ -1,11 +1,11 @@
 'use strict';
-// Legal texts of the beta (terms of use and privacy policy) in every interface language: dist/legal-text/<code>.js,
+// Legal texts (terms of use and privacy policy) in every interface language: dist/legal-text/<code>.js,
 // loaded on demand, with the operator data of legal-config.js, amounts in the user's currency (currency.js) and the
 // figures of economy.js. If a translation differs, the Spanish version prevails. tests/legal.test.cjs checks that every
 // translation has the same structure and placeholders as the Spanish one and that the hour estimates match the economy.
 const Legal = (() => {
-  // beta-2026-11-04.2: Android app with AppLovin ads (terms section 16, privacy section 11).
-  const VERSION = 'beta-2026-11-04.2', EFFECTIVE = new Date(2026, 10, 4);
+  // 1.0: first public release on Google Play (privacy policy reorganised, third-party SDKs in section 3).
+  const VERSION = '1.0', EFFECTIVE = new Date(2026, 10, 5);
   const config = typeof WatchEarnLegal !== 'undefined' ? WatchEarnLegal : {operator: {}};
   const operator = config.operator || {};
   const texts = {}, loading = {};
@@ -80,17 +80,26 @@ const Legal = (() => {
     const goals = typeof Currency !== 'undefined' ? Currency.goals : {EUR: 50};
     return `<p class="legal-currencies">${Object.entries(goals).map(([iso, value]) => `<span>${iso} ${esc(num(value))}</span>`).join(' · ')}</p>`;
   }
+  // An operator identified by name only (legal-config.js with a name but no tax ID or address): the operator sentences
+  // leave out the tax ID and address clause instead of showing them as pending. In every language that clause runs
+  // from the separator before {taxId} to {address}.
+  function operatorOnly(template) {
+    if (!raw('name') || raw('taxId') || raw('address') || !template.includes('{taxId}')) return template;
+    let out = template.replace(/(?:[,،;，、]\s*|(?<=[。.])\s*)[^,،;，、。.{}]*\{taxId\}.*?\{address\}/g, '');
+    if (!raw('registry')) out = out.replace(/\{registry\}/g, '');
+    return out.replace(/。。/g, '。').replace(/\.\./g, '.');
+  }
   function block(item, t, v, balance) {
-    if (Array.isArray(item)) return `<ul>${item.map(entry => `<li>${render(entry, v)}</li>`).join('')}</ul>`;
+    if (Array.isArray(item)) return `<ul>${item.map(entry => `<li>${render(operatorOnly(entry), v)}</li>`).join('')}</ul>`;
     if (item === '{rules}') return rulesHTML(t, v, balance);
     if (item === '{currencies}') return currenciesHTML();
-    return `<p>${render(item, v)}</p>`;
+    return `<p>${render(operatorOnly(item), v)}</p>`;
   }
   function documentHTML(kind, {balance = null, lang = code()} = {}) {
     const t = text(lang), doc = t[kind], v = values(t);
     const note = lang !== 'es' && texts[lang] && t.note ? `<p class="legal-language-note">${esc(t.note)}</p>` : '';
     return `<div class="terms-document" lang="${texts[lang] ? lang : 'es'}">${note}
-      <p class="terms-version">${render(t.version, v)}</p>
+      <p class="terms-version">${render(t.version, v)}</p>${doc.intro ? `<p class="legal-intro">${render(doc.intro, v)}</p>` : ''}
       <div class="legal-summary"><p>${render(doc.summaryTitle, v)}</p><ul>${doc.summary.map(item => `<li>${render(item, v)}</li>`).join('')}</ul></div>
       ${doc.sections.map(([heading, items]) => `<h3>${esc(heading)}</h3>${items.map(item => block(item, t, v, balance)).join('')}`).join('\n')}
     </div>`;
@@ -102,7 +111,7 @@ const Legal = (() => {
   // Withdrawal request sent by the user's own email app (to the operator, in Spanish): the app itself sends nothing.
   function withdrawalEmail({id, coins, amount, currency = 'EUR', method, date}) {
     const to = contactEmail(), subject = `Solicitud de retirada ${id} · ${amount}`;
-    const body = ['Hola:', '', 'Solicito esta retirada de WatchEarn (beta):', '', `Código: ${id}`, `Importe: ${amount} (${currency})`, `Monedas: ${new Intl.NumberFormat('es-ES', {useGrouping: 'always'}).format(coins)}`, `Método: ${method}`, `Fecha: ${date}`, `Condiciones aceptadas: versión ${VERSION}`, '',
+    const body = ['Hola:', '', 'Solicito esta retirada de WatchEarn:', '', `Código: ${id}`, `Importe: ${amount} (${currency})`, `Monedas: ${new Intl.NumberFormat('es-ES', {useGrouping: 'always'}).format(coins)}`, `Método: ${method}`, `Fecha: ${date}`, `Condiciones aceptadas: versión ${VERSION}`, '',
       method === 'Bizum' ? 'Mi número de móvil de Bizum: ' : 'Mi correo de PayPal: ', 'Nombre del titular de la cuenta: ', 'País de residencia: ', '',
       `Confirmo que tengo ${minAge()} años o más y que la cuenta de cobro está a mi nombre.`].join('\n');
     return {to, subject, body, href: to ? `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}` : null};

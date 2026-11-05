@@ -6,7 +6,7 @@ Legal.add('id', {
   registry: ', terdaftar di {registry}',
   adrYes: 'Kami tergabung dalam {adr}.',
   adrNo: 'Kami tidak tergabung dalam sistem penyelesaian sengketa konsumen alternatif mana pun.',
-  version: 'Versi {version} · Berlaku sejak {date}',
+  version: 'Versi {version} · Terakhir diperbarui: {date}',
   rules: {
     intro: 'Hingga {c25} koin, faktor hadiah turun dari {f0} ke {f25} dari nilai dasarnya; hingga {c30}, ke {f30}; hingga {c40}, ke {f40}; setelah itu penurunannya makin cepat. Mulai {c45} koin, rem progresif kedua mengurangi semua hadiah hingga terbagi 300 saat mencapai {c50}. Tidak ada hadiah tunggal yang melebihi {max} koin.',
     reference: 'Acuan Anda saat ini · 5 detik video',
@@ -18,7 +18,7 @@ Legal.add('id', {
     title: 'Ketentuan penggunaan',
     summaryTitle: '**Intinya** (ringkasan ini tidak menggantikan teks lengkap):',
     summary: [
-      'WatchEarn gratis dan masih beta. Hanya untuk orang berusia {age} tahun ke atas yang tinggal di {countries}.',
+      'WatchEarn gratis. Hanya untuk orang berusia {age} tahun ke atas yang tinggal di {countries}.',
       '{c1} koin = {rate}. Penarikan pertama sebesar {goal} dan diperiksa secara manual sebelum dibayar.',
       '**Hadiah makin kecil.** Mencapai penarikan pertama butuh sekitar {range} jam penggunaan aktif; 10% terakhir dari target saja butuh lebih dari {last} jam. Ini bukan sumber penghasilan.',
       'Saldo Anda hanya tersimpan di perangkat ini (di browser atau di aplikasi). Jika Anda menghapus datanya, mencopot aplikasi, atau berganti perangkat, saldo hilang dan kami tidak dapat memulihkannya.',
@@ -28,9 +28,9 @@ Legal.add('id', {
       ['1. Penyedia layanan', [
         'WatchEarn disediakan oleh {name}, nomor pajak {taxId}, beralamat di {address}{registry}. Email kontak: {email}. Informasi ini diberikan sesuai Pasal 10 Undang-Undang Spanyol 34/2002 tentang layanan masyarakat informasi dan perdagangan elektronik (LSSI).'
       ]],
-      ['2. Ruang lingkup, tahap beta, dan persetujuan', [
-        'Ketentuan ini mengatur penggunaan aplikasi web WatchEarn selama tahap beta: layanan gratis tempat Anda menonton video pendek, menyelesaikan tugas dan game, serta mengumpulkan koin yang dapat ditukar dengan uang sesuai bagian 6. Tidak perlu pembelian, pembayaran, atau langganan apa pun.',
-        'Beta adalah versi uji coba: bisa mengalami kesalahan dan gangguan serta berubah sesuai bagian 9. Kami tidak menjamin ketersediaannya terus-menerus.',
+      ['2. Ruang lingkup dan persetujuan', [
+        'Ketentuan ini mengatur penggunaan WatchEarn: layanan gratis tempat Anda menonton video pendek, menyelesaikan tugas dan game, serta mengumpulkan koin yang dapat ditukar dengan uang sesuai bagian 6. Tidak perlu pembelian, pembayaran, atau langganan apa pun.',
+        'Layanan ini bisa mengalami kesalahan dan gangguan serta berubah sesuai bagian 9. Kami tidak menjamin ketersediaannya terus-menerus.',
         'Untuk menyetujui ketentuan ini, tekan «Saya sudah membaca dan setuju». Dengan menyetujuinya, Anda menyatakan memenuhi persyaratan di bagian 3. Tanpa persetujuan, video tidak diputar dan hadiah tidak diperoleh. Kami menyimpan versi yang disetujui dan tanggalnya di browser Anda.',
         'Kami tidak mengarsipkan salinan individual persetujuan Anda: ketentuan ini selalu tersedia di halaman [Ketentuan penggunaan](terms.html), tempat Anda dapat menyimpan atau mencetaknya (Pasal 27 LSSI). Ketentuan ini tersedia dalam beberapa bahasa; jika terjemahan berbeda, versi bahasa Spanyol yang berlaku.'
       ]],
@@ -58,22 +58,22 @@ Legal.add('id', {
       ]],
       ['7. Penggunaan yang wajar dan pencegahan penipuan', [
         'Dilarang memperoleh koin dengan bot, skrip, emulator, atau otomatisasi apa pun; mengubah penyimpanan, kode, jam perangkat, atau permintaan aplikasi; memanfaatkan kesalahan; memakai beberapa profil untuk melipatgandakan hadiah; atau menjual maupun mengalihkan koin atau profil.',
-        'Jika kami menemukan perilaku tersebut, kami dapat membatalkan koin yang diperoleh secara tidak sah, menolak penarikan terkait, dan mengeluarkan Anda dari beta, secara proporsional dan dengan memberi tahu alasannya bila memungkinkan. Kami juga dapat mengoreksi jumlah yang dikreditkan akibat kesalahan teknis yang jelas.'
+        'Jika kami menemukan perilaku tersebut, kami dapat membatalkan koin yang diperoleh secara tidak sah, menolak penarikan terkait, dan mengeluarkan Anda dari layanan, secara proporsional dan dengan memberi tahu alasannya bila memungkinkan. Kami juga dapat mengoreksi jumlah yang dikreditkan akibat kesalahan teknis yang jelas.'
       ]],
       ['8. Konten dan kekayaan intelektual', [
         'Video adalah milik kreator dan pemegang haknya; WatchEarn menampilkan nama kreator dan tautan ke video asli. Anda tidak memperoleh hak apa pun atasnya: Anda hanya boleh menontonnya di dalam aplikasi untuk penggunaan pribadi. Tautan ke YouTube dan situs lain mengarah ke layanan pihak ketiga dengan ketentuannya sendiri.',
         'Jika Anda pemegang hak dan menganggap suatu konten digunakan tanpa izin, kirim email ke {email} dengan menyebutkan kontennya, hak Anda, dan data kontak Anda. Kami akan segera menghapusnya setelah benar-benar mengetahui bahwa penggunaannya melanggar hukum.',
         'Nama, desain, dan kode WatchEarn adalah milik penyedia layanan, kecuali sumber daya pihak ketiga dengan lisensinya sendiri, seperti font DM Sans dan Manrope (SIL Open Font License).'
       ]],
-      ['9. Perubahan dan berakhirnya beta', [
+      ['9. Perubahan dan penutupan layanan', [
         'Kami dapat mengubah layanan, hadiah, atau ketentuan ini karena alasan yang sah (hukum, teknis, keamanan, pencegahan penipuan, keberlanjutan, atau pengembangan layanan), dengan pemberitahuan di aplikasi setidaknya 15 hari sebelumnya, kecuali perubahan mendesak yang diwajibkan hukum atau keamanan. Untuk terus memakai aplikasi, Anda harus menyetujui versi baru; jika tidak, Anda dapat berhenti memakainya dan mengajukan penarikan yang sudah menjadi hak Anda. Koin yang sudah diperoleh tetap memiliki nilai tukarnya.',
-        'Kami akan mengumumkan penutupan beta setidaknya {noticeDays} hari sebelumnya, dan Anda dapat mengajukan penarikan saldo yang mencapai batas hingga {claimDays} hari setelah penutupan. **Saldo di bawah penarikan pertama tidak dapat ditukarkan dan hangus saat beta ditutup.**'
+        'Jika kami menutup layanan, kami akan mengumumkannya setidaknya {noticeDays} hari sebelumnya, dan Anda dapat mengajukan penarikan saldo yang mencapai batas hingga {claimDays} hari setelah penutupan. **Saldo di bawah penarikan pertama tidak dapat ditukarkan dan hangus saat layanan ditutup.**'
       ]],
       ['10. Tanggung jawab', [
         'Kami bertanggung jawab atas kerugian akibat kesengajaan atau kelalaian berat dan atas kerugian yang tanggung jawabnya tidak dapat dikecualikan menurut hukum. Kami tidak bertanggung jawab atas gangguan di luar kendali kami atau hilangnya saldo karena data browser dihapus, mode penjelajahan pribadi, atau pergantian perangkat. Tidak ada dalam ketentuan ini yang membatasi hak Anda sebagai konsumen.'
       ]],
       ['11. Durasi, berhenti, dan pembatalan', [
-        'Perjanjian berlaku selama Anda menggunakan layanan dan paling lama hingga beta ditutup. Anda dapat berhenti memakai WatchEarn kapan saja tanpa biaya dan menghapus semua datanya melalui Pengaturan → Hapus data saya. Anda juga dapat membatalkan perjanjian dalam 14 hari kalender sesuai Pasal 102 Undang-Undang Umum Spanyol tentang Perlindungan Konsumen dan Pengguna, tanpa menyebutkan alasan: cukup berhenti memakai aplikasi dan, jika mau, memberi tahu kami. Kami dapat mengakhiri perjanjian jika Anda melanggar ketentuan ini, dengan memberi tahu alasannya.'
+        'Perjanjian berlaku selama Anda menggunakan layanan dan paling lama hingga layanan ditutup. Anda dapat berhenti memakai WatchEarn kapan saja tanpa biaya dan menghapus semua datanya melalui Pengaturan → Hapus data saya. Anda juga dapat membatalkan perjanjian dalam 14 hari kalender sesuai Pasal 102 Undang-Undang Umum Spanyol tentang Perlindungan Konsumen dan Pengguna, tanpa menyebutkan alasan: cukup berhenti memakai aplikasi dan, jika mau, memberi tahu kami. Kami dapat mengakhiri perjanjian jika Anda melanggar ketentuan ini, dengan memberi tahu alasannya.'
       ]],
       ['12. Privasi', [
         'Pemrosesan data Anda dijelaskan dalam [Kebijakan privasi](privacy.html).'
@@ -98,6 +98,7 @@ Legal.add('id', {
   privacy: {
     title: 'Kebijakan privasi',
     summaryTitle: '**Intinya**',
+    intro: 'WatchEarn (“kami”) berkomitmen melindungi privasi Anda. Kebijakan ini menjelaskan informasi apa yang kami kumpulkan, cara kami menggunakannya, dan cara kami melindunginya saat Anda menggunakan WatchEarn, termasuk layanan pihak ketiga yang terintegrasi di aplikasi.',
     summary: [
       'Tanpa pendaftaran atau akun: progres Anda tersimpan di perangkat Anda dan tidak kami terima.',
       'Kami hanya memproses data pribadi jika Anda menghubungi kami atau mengajukan penarikan.',
@@ -105,16 +106,15 @@ Legal.add('id', {
       'Anda dapat menghapus data melalui Pengaturan → Hapus data saya dan menggunakan hak Anda dengan menghubungi kami.'
     ],
     sections: [
-      ['1. Pengendali data', [
-        '{name}, nomor pajak {taxId}, beralamat di {address}{registry}. Email kontak dan privasi: {email}.'
+      ['1. Informasi yang kami kumpulkan', [
+        '**1.1 Data pribadi.** Jika Anda mengirim permintaan penarikan atau menghubungi kami, kami memproses alamat email, nama, data rekening penerimaan (nomor Bizum atau email PayPal), negara tempat tinggal, kode, jumlah, dan tanggal permintaan, serta isi pesan. Jika diperlukan untuk memeriksa persyaratan, kami dapat meminta bukti identitas, usia, dan tempat tinggal, hanya yang benar-benar perlu.',
+        '**1.2 Data penggunaan.** Aplikasi menyimpan di penyimpanan lokal browser Anda saldo, transaksi, tugas, game, video tersimpan, urutan feed, waktu menonton, hadiah tertunda, permintaan penarikan, pengaturan dan bahasa, serta versi dan tanggal ketentuan yang disetujui, dalam catatan `watchearn-v1`, `watchearn-terms`, dan `watchearn-language`. Data ini tidak dikirim ke server kami dan kami tidak dapat mengaksesnya.',
+        '**1.3 Data perangkat.** Di aplikasi Android, SDK iklan AppLovin mengumpulkan data teknis dari perangkat Anda, seperti ID iklan, alamat IP, model, dan sistem operasi (bagian 3). Jika Anda mengunjungi situs web WatchEarn, penyedia hosting ({hosting}) menerima alamat IP Anda, halaman yang diminta, tanggal dan waktu, serta data teknis browser untuk menyajikan dan melindungi situs. Mata uang dan bahasa dipilih berdasarkan zona waktu dan bahasa perangkat Anda, tanpa mengirimkannya ke siapa pun atau menggunakan lokasi Anda.',
+        '**1.4 Tautan.** Jika Anda membuka video asli, Anda akan menuju YouTube, yang memproses data Anda sesuai kebijakannya sendiri. Jika Anda memakai Bagikan, judul dan tautan diserahkan ke fitur berbagi perangkat Anda.',
+        'Kami tidak mengumpulkan data sensitif, seperti asal etnis, keyakinan agama, kesehatan, atau data biometrik, dan kami meminta Anda untuk tidak mengirimkannya kepada kami.',
+        '**Penyimpanan lokal dan cookie.** WatchEarn tidak menggunakan cookie. Catatan lokal mutlak diperlukan untuk menyediakan layanan yang Anda minta, sehingga tidak memerlukan persetujuan (pasal 22.2 LSSI). Situs web tidak memiliki analitik, iklan, atau pelacakan pihak ketiga. Di aplikasi Android, SDK AppLovin menyimpan dan membaca informasi di perangkat Anda untuk menampilkan iklan (bagian 3).'
       ]],
-      ['2. Data yang kami proses', [
-        '**Di perangkat Anda.** Aplikasi menyimpan di penyimpanan lokal browser Anda saldo, transaksi, tugas, game, video tersimpan, urutan feed, waktu menonton, hadiah tertunda, permintaan penarikan, pengaturan dan bahasa, serta versi dan tanggal ketentuan yang disetujui, dalam catatan `watchearn-v1`, `watchearn-terms`, dan `watchearn-language`. Data ini tidak dikirim ke server kami dan kami tidak dapat mengaksesnya.',
-        '**Penarikan dan pesan.** Jika Anda mengirim permintaan penarikan atau menghubungi kami, kami memproses alamat email, nama, data rekening penerimaan (nomor Bizum atau email PayPal), negara tempat tinggal, kode, jumlah, dan tanggal permintaan, serta isi pesan. Jika diperlukan untuk memeriksa persyaratan, kami dapat meminta bukti identitas, usia, dan tempat tinggal, hanya yang benar-benar perlu.',
-        '**Koneksi.** Saat aplikasi dimuat, penyedia hosting ({hosting}) menerima alamat IP Anda, halaman yang diminta, tanggal dan waktu, serta data teknis browser untuk menyajikan dan melindungi situs. Mata uang dan bahasa dipilih berdasarkan zona waktu dan bahasa perangkat Anda, tanpa dikirim ke siapa pun dan tanpa memakai lokasi Anda.',
-        '**Tautan.** Jika Anda membuka video asli, Anda akan menuju YouTube, yang memproses data Anda sesuai kebijakannya sendiri. Jika Anda memakai Bagikan, judul dan tautan diserahkan ke fitur berbagi perangkat Anda.'
-      ]],
-      ['3. Tujuan dan dasar hukum', [
+      ['2. Cara kami menggunakan informasi Anda', [
         [
           'Menyediakan layanan (video, hadiah, pengaturan, dan persetujuan ketentuan): pelaksanaan perjanjian (Pasal 6(1)(b) GDPR).',
           'Memproses, memeriksa, dan membayar penarikan: pelaksanaan perjanjian (Pasal 6(1)(b) GDPR).',
@@ -123,15 +123,30 @@ Legal.add('id', {
           'Memenuhi kewajiban akuntansi dan pajak atas pembayaran: kewajiban hukum (Pasal 6(1)(c) GDPR).',
           'Menyajikan situs dengan aman: kepentingan sah (Pasal 6(1)(f) GDPR).'
         ],
-        'Kami tidak membuat profil atau mengambil keputusan yang sepenuhnya otomatis: setiap penarikan ditinjau oleh manusia. Di aplikasi Android, AppLovin dan mitranya hanya mempersonalisasi iklan jika Anda menyetujuinya (bagian 11).'
+        'Kami tidak membuat profil atau mengambil keputusan yang sepenuhnya otomatis: setiap penarikan ditinjau oleh manusia. Di aplikasi Android, AppLovin dan mitranya hanya mempersonalisasi iklan jika Anda menyetujuinya (bagian 3).'
       ]],
-      ['4. Penerima', [
-        'Penyedia hosting dan email pengendali, sebagai pemroses; PayPal atau bank yang memproses pembayaran, sebagai pengendali independen; di aplikasi Android, AppLovin dan jaringan iklan dalam mediasinya (bagian 11); serta pihak berwenang jika diwajibkan oleh hukum. Kami tidak menjual data Anda.'
+      ['3. Layanan dan SDK pihak ketiga', [
+        '**Siapa.** Aplikasi Android menyertakan SDK AppLovin MAX dari AppLovin Corporation, yang menayangkan iklan secara langsung atau melalui jaringan iklan dalam mediasinya. AppLovin dan jaringan tersebut memproses data sebagai pengendali independen sesuai kebijakan mereka sendiri ([kebijakan privasi AppLovin](https://legal.applovin.com/privacy/)). Kami tidak menerima data tersebut dalam bentuk yang mengidentifikasi Anda; hanya laporan gabungan tentang iklan dan pendapatan.',
+        '**Data apa.** ID iklan perangkat Anda (kecuali Anda telah menghapusnya di pengaturan Android), alamat IP, model dan sistem operasi, bahasa, zona waktu, operator dan jenis koneksi, aplikasi dan iklan yang ditampilkan, serta interaksi Anda dengannya (tayangan, klik, dan hadiah).',
+        '**Tujuan dan dasar hukum.** Menampilkan iklan yang tidak dipersonalisasi, membatasi frekuensinya, mengukurnya, mengkreditkan hadiah, dan mencegah penipuan iklan: kepentingan yang sah untuk membiayai dan melindungi layanan gratis (pasal 6.1.f GDPR). Menampilkan iklan yang dipersonalisasi sesuai minat Anda dan mengukurnya: hanya dengan persetujuan Anda (pasal 6.1.a GDPR).',
+        '**Pilihan Anda.** Saat pertama kali membuka aplikasi, kami bertanya apakah Anda menerima iklan yang dipersonalisasi; menolak sama mudahnya dan tidak menghalangi Anda menggunakan aplikasi atau mendapatkan hadiah. Anda dapat menarik atau memberikan persetujuan kapan saja di Pengaturan → Iklan yang dipersonalisasi, serta mengatur ulang atau menghapus ID iklan di pengaturan Android. Anda juga dapat menolak pemrosesan berdasarkan kepentingan yang sah dengan menulis kepada kami.',
+        '**Transfer dan penyimpanan.** AppLovin dan beberapa jaringan memproses data di Amerika Serikat dan negara lain di luar Wilayah Ekonomi Eropa, dengan perlindungan bab V GDPR (seperti Kerangka Privasi Data UE-AS atau klausul kontrak standar). Mereka menyimpannya selama jangka waktu yang ditetapkan dalam kebijakan mereka.',
+        'Kami menyarankan Anda membaca kebijakan privasi pihak ketiga berikut:',
+        [
+          'AppLovin (iklan, SDK AppLovin MAX): [kebijakan privasi](https://legal.applovin.com/privacy/)',
+          'Google (Google Play, tempat Anda mengunduh aplikasi, dan ID iklan Android; YouTube, jika Anda membuka video asli): [kebijakan privasi](https://policies.google.com/privacy)',
+          'GitHub (hosting situs web): [pernyataan privasi](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement)'
+        ],
+        'Kami tidak mengintegrasikan SDK analitik, atribusi, atau iklan lainnya. Jika kami menambahkannya, kami akan mencantumkannya dalam daftar ini sebelum mengaktifkannya.'
       ]],
-      ['5. Transfer internasional', [
-        'Jika ada penyedia yang memproses data di luar Wilayah Ekonomi Eropa, hal itu dilakukan dengan perlindungan Bab V GDPR, seperti keputusan kecukupan atau klausul kontrak standar Komisi Eropa.'
+      ['4. Dengan siapa kami membagikan informasi Anda', [
+        'Penyedia hosting dan email pengendali, sebagai pemroses; PayPal atau bank yang memproses pembayaran, sebagai pengendali independen; di aplikasi Android, AppLovin dan jaringan iklan dalam mediasinya (bagian 3); serta pihak berwenang jika diwajibkan oleh hukum. Kami tidak menjual data Anda.',
+        'Kami juga dapat mengungkapkan data jika diwajibkan oleh hukum, perintah pengadilan, atau otoritas; untuk melindungi hak kami, pengguna, atau pihak ketiga dari penipuan atau kegiatan melanggar hukum; dan, jika layanan dialihkan ke pemilik lain, kepada pemilik baru, yang wajib mematuhi kebijakan ini. Kami akan memberi tahu Anda sebelum pengalihan tersebut.',
+        '**Transfer internasional.** Jika ada penyedia yang memproses data di luar Wilayah Ekonomi Eropa, hal itu dilakukan dengan perlindungan Bab V GDPR, seperti keputusan kecukupan atau klausul kontrak standar Komisi Eropa.'
       ]],
-      ['6. Masa penyimpanan', [
+      ['5. Keamanan dan masa penyimpanan', [
+        'Halaman web WatchEarn disajikan melalui HTTPS. Email berisi permintaan penarikan dan data pembayaran disimpan di kotak surat terlindungi yang hanya dapat diakses oleh pemilik layanan, dan hanya digunakan untuk memproses pembayaran. Data aplikasi tidak dienkripsi di perangkat Anda: siapa pun yang dapat mengaksesnya bisa melihat atau mengubahnya. Tidak ada sistem yang menjamin keamanan mutlak.',
+        '**Masa penyimpanan.** Kami menyimpan setiap data hanya selama diperlukan:',
         [
           'Data di perangkat Anda: sampai Anda menghapusnya.',
           'Permintaan penarikan dan pembayaran: selama diperlukan untuk memprosesnya, lalu diblokir selama jangka waktu hukum (umumnya 4 tahun untuk pajak dan 6 tahun untuk akuntansi).',
@@ -139,27 +154,19 @@ Legal.add('id', {
           'Log teknis: jangka waktu yang diterapkan penyedia hosting.'
         ]
       ]],
-      ['7. Keamanan', [
-        'Situs disajikan melalui HTTPS. Data lokal tidak dienkripsi di dalam aplikasi: siapa pun yang mengakses browser Anda dapat melihat atau mengubahnya. Tidak ada sistem yang menjamin keamanan mutlak.'
-      ]],
-      ['8. Anak di bawah umur', [
+      ['6. Anak di bawah umur', [
         'WatchEarn hanya untuk orang berusia {age} tahun ke atas. Jika kami mengetahui suatu permintaan berasal dari anak di bawah umur, kami akan menolaknya dan menghapus datanya, kecuali yang wajib kami simpan menurut hukum.'
       ]],
-      ['9. Hak Anda', [
+      ['7. Hak dan pilihan Anda', [
+        'Anda dapat menggunakan WatchEarn tanpa memberikan data pribadi apa pun kepada kami: kami hanya membutuhkannya jika Anda menulis kepada kami atau mengajukan penarikan.',
         'Anda dapat menggunakan hak akses, perbaikan, penghapusan, keberatan, pembatasan, dan portabilitas dengan mengirim email ke {email}. Kami membalas dalam satu bulan, dapat diperpanjang dua bulan lagi untuk kasus yang rumit. Data di perangkat dapat Anda hapus sendiri melalui Pengaturan → Hapus data saya. Anda juga dapat mengadu ke [Badan Perlindungan Data Spanyol (AEPD)](https://www.aepd.es/) atau otoritas perlindungan data di negara Anda.'
       ]],
-      ['10. Penyimpanan lokal dan cookie', [
-        'WatchEarn tidak menggunakan cookie. Catatan lokal mutlak diperlukan untuk menyediakan layanan yang Anda minta, sehingga tidak memerlukan persetujuan (pasal 22.2 LSSI). Situs web tidak memiliki analitik, iklan, atau pelacakan pihak ketiga. Di aplikasi Android, SDK AppLovin menyimpan dan membaca informasi di perangkat Anda untuk menampilkan iklan (bagian 11).'
-      ]],
-      ['11. Iklan di aplikasi Android', [
-        '**Siapa.** Aplikasi Android menyertakan SDK AppLovin MAX dari AppLovin Corporation, yang menayangkan iklan secara langsung atau melalui jaringan iklan dalam mediasinya. AppLovin dan jaringan tersebut memproses data sebagai pengendali independen sesuai kebijakan mereka sendiri ([kebijakan privasi AppLovin](https://www.applovin.com/privacy/)). Kami tidak menerima data tersebut dalam bentuk yang mengidentifikasi Anda; hanya laporan gabungan tentang iklan dan pendapatan.',
-        '**Data apa.** ID iklan perangkat Anda (kecuali Anda telah menghapusnya di pengaturan Android), alamat IP, model dan sistem operasi, bahasa, zona waktu, operator dan jenis koneksi, aplikasi dan iklan yang ditampilkan, serta interaksi Anda dengannya (tayangan, klik, dan hadiah).',
-        '**Tujuan dan dasar hukum.** Menampilkan iklan yang tidak dipersonalisasi, membatasi frekuensinya, mengukurnya, mengkreditkan hadiah, dan mencegah penipuan iklan: kepentingan yang sah untuk membiayai dan melindungi layanan gratis (pasal 6.1.f GDPR). Menampilkan iklan yang dipersonalisasi sesuai minat Anda dan mengukurnya: hanya dengan persetujuan Anda (pasal 6.1.a GDPR).',
-        '**Pilihan Anda.** Saat pertama kali membuka aplikasi, kami bertanya apakah Anda menerima iklan yang dipersonalisasi; menolak sama mudahnya dan tidak menghalangi Anda menggunakan aplikasi atau mendapatkan hadiah. Anda dapat menarik atau memberikan persetujuan kapan saja di Pengaturan → Iklan yang dipersonalisasi, serta mengatur ulang atau menghapus ID iklan di pengaturan Android. Anda juga dapat menolak pemrosesan berdasarkan kepentingan yang sah dengan menulis kepada kami.',
-        '**Transfer dan penyimpanan.** AppLovin dan beberapa jaringan memproses data di Amerika Serikat dan negara lain di luar Wilayah Ekonomi Eropa, dengan perlindungan bab V GDPR (seperti Kerangka Privasi Data UE-AS atau klausul kontrak standar). Mereka menyimpannya selama jangka waktu yang ditetapkan dalam kebijakan mereka.'
-      ]],
-      ['12. Perubahan', [
+      ['8. Perubahan', [
         'Jika kami mengubah kebijakan ini, kami akan memperbarui versi dan tanggalnya serta memberi tahu perubahan penting di aplikasi. Jika pemrosesan baru memerlukan persetujuan Anda, kami akan memintanya sebelum mengaktifkannya.'
+      ]],
+      ['9. Kontak', [
+        '**Pengendali data.** {name}, nomor pajak {taxId}, beralamat di {address}{registry}. Email kontak dan privasi: {email}.',
+        'Jika Anda memiliki pertanyaan, kekhawatiran, atau permintaan tentang kebijakan ini atau pemrosesan data Anda, tulis kepada kami di {email}.'
       ]]
     ]
   }

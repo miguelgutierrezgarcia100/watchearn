@@ -6,7 +6,7 @@ Legal.add('en', {
   registry: ', registered with {registry}',
   adrYes: 'We are members of {adr}.',
   adrNo: 'We are not members of any alternative consumer dispute resolution scheme.',
-  version: 'Version {version} · In force since {date}',
+  version: 'Version {version} · Last updated: {date}',
   rules: {
     intro: 'Up to {c25} coins, the prize factor falls from {f0} to {f25} of each prize’s base value; up to {c30}, to {f30}; up to {c40}, to {f40}; after that the decline speeds up. From {c45} coins, a second progressive brake reduces every reward until it is divided by 300 at {c50}. No single prize exceeds {max} coins.',
     reference: 'Your current reference · 5 seconds of video',
@@ -18,7 +18,7 @@ Legal.add('en', {
     title: 'Terms of use',
     summaryTitle: '**The essentials** (this summary does not replace the full text):',
     summary: [
-      'WatchEarn is free and in beta. Only for people aged {age} or over who live in {countries}.',
+      'WatchEarn is free. Only for people aged {age} or over who live in {countries}.',
       '{c1} coins = {rate}. The first withdrawal is {goal} and is reviewed by hand before it is paid.',
       '**Rewards decrease.** Reaching the first withdrawal takes about {range} hours of active use; the last 10% of the goal alone takes more than {last} hours. This is not a source of income.',
       'Your balance is stored only on this device (in the browser or in the app). If you clear its data, uninstall the app or switch devices, it is lost and we cannot recover it.',
@@ -28,9 +28,9 @@ Legal.add('en', {
       ['1. Service provider', [
         'WatchEarn is provided by {name}, tax ID {taxId}, with its address at {address}{registry}. Contact email: {email}. This information is given under Article 10 of Spanish Law 34/2002 on information society services and e-commerce (LSSI).'
       ]],
-      ['2. Purpose, beta and acceptance', [
-        'These terms govern the use of the WatchEarn web app during its beta: a free service in which you watch short videos, complete tasks and games and collect coins that can be redeemed for money under section 6. No purchase, payment or subscription is required.',
-        'The beta is a test version: it may have errors and interruptions and may change under section 9. We do not guarantee that it will always be available.',
+      ['2. Purpose and acceptance', [
+        'These terms govern the use of WatchEarn: a free service in which you watch short videos, complete tasks and games and collect coins that can be redeemed for money under section 6. No purchase, payment or subscription is required.',
+        'The service may have errors and interruptions and may change under section 9. We do not guarantee that it will always be available.',
         'To accept these terms, press “I have read and accept”. By accepting them you declare that you meet the requirements in section 3. Without accepting them, videos do not play and no rewards are earned. We store the accepted version and the date in your browser.',
         'We do not file an individual copy of your acceptance: these terms are always available on the [Terms of use](terms.html) page, where you can save or print them (Article 27 LSSI). They are offered in several languages; if a translation differs, the Spanish version prevails.'
       ]],
@@ -58,22 +58,22 @@ Legal.add('en', {
       ]],
       ['7. Fair use and fraud prevention', [
         'You may not obtain coins through bots, scripts, emulators or any automation; tamper with the app’s storage, code, device clock or requests; exploit errors; use several profiles to multiply rewards; or sell or transfer coins or profiles.',
-        'If we detect such conduct, we may cancel coins obtained improperly, reject the affected withdrawals and exclude you from the beta, proportionately and telling you the reason where possible. We may also correct amounts credited through an obvious technical error.'
+        'If we detect such conduct, we may cancel coins obtained improperly, reject the affected withdrawals and exclude you from the service, proportionately and telling you the reason where possible. We may also correct amounts credited through an obvious technical error.'
       ]],
       ['8. Content and intellectual property', [
         'The videos belong to their creators and rights holders; WatchEarn shows the creator’s name and a link to the original. You receive no rights over them: you may only watch them inside the app, for personal use. Links to YouTube and other sites lead to third-party services with their own terms.',
         'If you hold rights and believe content is being used without permission, write to {email} identifying the content, your rights and your contact details. We will remove it promptly once we have actual knowledge that its use is unlawful.',
         'The WatchEarn name, design and code belong to the provider, except third-party resources with their own licences, such as the DM Sans and Manrope fonts (SIL Open Font License).'
       ]],
-      ['9. Changes and end of the beta', [
+      ['9. Changes and closure of the service', [
         'We may change the service, the rewards or these terms for valid reasons (legal, technical, security, fraud prevention, sustainability or development of the service), giving you at least 15 days’ notice in the app, except for urgent changes required by law or security. To keep using the app you will have to accept the new version; if you do not, you can stop using it and request any withdrawals you were already entitled to. Coins already earned keep their redemption value.',
-        'We will announce the end of the beta at least {noticeDays} days in advance, and you can request withdrawals of any balance that reaches the threshold for up to {claimDays} days after it closes. **A balance below the first withdrawal cannot be redeemed and expires when the beta closes.**'
+        'If we close the service, we will announce it at least {noticeDays} days in advance, and you can request withdrawals of any balance that reaches the threshold for up to {claimDays} days after it closes. **A balance below the first withdrawal cannot be redeemed and expires when the service closes.**'
       ]],
       ['10. Liability', [
         'We are liable for damage caused by wilful misconduct or gross negligence and for any damage whose liability cannot be excluded by law. We are not liable for interruptions beyond our control or for the loss of your balance because you cleared the browser’s data, used private browsing or changed device. Nothing in these terms limits your rights as a consumer.'
       ]],
       ['11. Duration, leaving and withdrawal from the contract', [
-        'The contract lasts while you use the service and at most until the beta closes. You can stop using WatchEarn whenever you like, at no cost, and delete all its data from Settings → Delete my data. You can also withdraw from the contract within the 14 calendar days granted by Article 102 of the Spanish General Law for the Protection of Consumers and Users, without giving a reason: simply stop using the app and, if you wish, tell us. We may terminate the contract if you breach these terms, telling you the reason.'
+        'The contract lasts while you use the service and at most until the service closes. You can stop using WatchEarn whenever you like, at no cost, and delete all its data from Settings → Delete my data. You can also withdraw from the contract within the 14 calendar days granted by Article 102 of the Spanish General Law for the Protection of Consumers and Users, without giving a reason: simply stop using the app and, if you wish, tell us. We may terminate the contract if you breach these terms, telling you the reason.'
       ]],
       ['12. Privacy', [
         'How we process your data is described in the [Privacy policy](privacy.html).'
@@ -98,6 +98,7 @@ Legal.add('en', {
   privacy: {
     title: 'Privacy policy',
     summaryTitle: '**The essentials**',
+    intro: 'WatchEarn (“we”, “us”) is committed to protecting your privacy. This policy explains what information we collect, how we use it and how we protect it when you use WatchEarn, including the third-party services built into the app.',
     summary: [
       'There is no registration or account: your progress is stored on your device and we do not receive it.',
       'We only process personal data if you write to us or request a withdrawal.',
@@ -105,16 +106,15 @@ Legal.add('en', {
       'You can delete your data from Settings → Delete my data and exercise your rights by writing to us.'
     ],
     sections: [
-      ['1. Data controller', [
-        '{name}, tax ID {taxId}, with its address at {address}{registry}. Contact and privacy email: {email}.'
+      ['1. Information we collect', [
+        '**1.1 Personal information.** If you send us a withdrawal request or write to us, we process your email address, your name, your payout account details (Bizum number or PayPal email), your country of residence, the code, amount and date of the request and the content of the messages. If needed to check the requirements, we may ask for information proving your identity, age and residence, and only what is strictly necessary.',
+        '**1.2 Usage data.** The app stores in your browser’s local storage your balance, transactions, tasks, games, saved videos, feed order, watch time, pending prizes, withdrawal requests, settings and language, and the version and date of the accepted terms, in the records `watchearn-v1`, `watchearn-terms` and `watchearn-language`. They are not sent to our servers and we have no access to them.',
+        '**1.3 Device information.** In the Android app, the AppLovin advertising SDK collects technical data from your device, such as the advertising ID, IP address, model and operating system (section 3). If you visit the WatchEarn website, the hosting provider ({hosting}) receives your IP address, the page requested, the date and time and technical browser data to serve it and protect it. The currency and language are chosen from your device’s time zone and languages, without sending them to anyone or using your location.',
+        '**1.4 Links.** If you open an original video you go to YouTube, which processes your data under its own policy. If you use Share, the title and link are handed to your device’s sharing feature.',
+        'We do not collect sensitive data, such as ethnic origin, religious beliefs, health or biometric data, and we ask you not to send it to us.',
+        '**Local storage and cookies.** WatchEarn does not use cookies. The local records are strictly necessary to provide the service you request, so they do not require consent (article 22.2 LSSI). The website has no analytics, advertising or third-party tracking. In the Android app, the AppLovin SDK stores and reads information on your device to show ads (section 3).'
       ]],
-      ['2. What data we process', [
-        '**On your device.** The app stores in your browser’s local storage your balance, transactions, tasks, games, saved videos, feed order, watch time, pending prizes, withdrawal requests, settings and language, and the version and date of the accepted terms, in the records `watchearn-v1`, `watchearn-terms` and `watchearn-language`. They are not sent to our servers and we have no access to them.',
-        '**Withdrawals and messages.** If you send us a withdrawal request or write to us, we process your email address, your name, your payout account details (Bizum number or PayPal email), your country of residence, the code, amount and date of the request and the content of the messages. If needed to check the requirements, we may ask for information proving your identity, age and residence, and only what is strictly necessary.',
-        '**Connection.** When the app loads, the hosting provider ({hosting}) receives your IP address, the page requested, the date and time and technical browser data to serve the site and protect it. The currency and language are chosen from your device’s time zone and languages, without sending them to anyone or using your location.',
-        '**Links.** If you open an original video you go to YouTube, which processes your data under its own policy. If you use Share, the title and link are handed to your device’s sharing feature.'
-      ]],
-      ['3. Purposes and legal bases', [
+      ['2. How we use your information', [
         [
           'Providing the service (videos, rewards, settings and acceptance of the terms): performance of the contract (Art. 6(1)(b) GDPR).',
           'Handling, verifying and paying withdrawals: performance of the contract (Art. 6(1)(b) GDPR).',
@@ -123,15 +123,30 @@ Legal.add('en', {
           'Meeting accounting and tax obligations for payments: legal obligation (Art. 6(1)(c) GDPR).',
           'Serving the site securely: legitimate interest (Art. 6(1)(f) GDPR).'
         ],
-        'We do not build profiles or take solely automated decisions: a person reviews every withdrawal. In the Android app, AppLovin and its partners only personalise ads if you consent (section 11).'
+        'We do not build profiles or take solely automated decisions: a person reviews every withdrawal. In the Android app, AppLovin and its partners only personalise ads if you consent (section 3).'
       ]],
-      ['4. Recipients', [
-        'The controller’s hosting and email providers, as processors; PayPal or the bank processing the payment, as independent controllers; in the Android app, AppLovin and the ad networks in its mediation (section 11); and the authorities when the law requires it. We do not sell your data.'
+      ['3. Third-party services and SDKs', [
+        '**Who.** The Android app includes the AppLovin MAX SDK from AppLovin Corporation, which serves ads directly or through the ad networks in its mediation. AppLovin and those networks process the data as independent controllers under their own policies ([AppLovin privacy policy](https://legal.applovin.com/privacy/)). We do not receive that data in a form that identifies you; only aggregated reports on ads and revenue.',
+        '**What data.** Your device’s advertising ID (unless you have deleted it in the Android settings), IP address, model and operating system, language, time zone, carrier and connection type, the app and the ads shown, and your interactions with them (views, clicks and rewards).',
+        '**Purposes and legal bases.** Showing non-personalised ads, limiting how often they appear, measuring them, crediting rewards and preventing ad fraud: legitimate interest in funding the free service and protecting it (art. 6.1.f GDPR). Showing ads personalised to your interests and measuring them: only with your consent (art. 6.1.a GDPR).',
+        '**Your choice.** The first time you open the app we ask whether you accept personalised ads; declining is just as easy and does not stop you from using the app or earning rewards. You can withdraw or give consent at any time in Settings → Personalised ads, and reset or delete your advertising ID in the Android settings. You can also object to processing based on legitimate interest by writing to us.',
+        '**Transfers and retention.** AppLovin and some networks process data in the United States and other countries outside the European Economic Area, with the safeguards of Chapter V of the GDPR (such as the EU-US Data Privacy Framework or the standard contractual clauses). They keep it for the periods set out in their policies.',
+        'We recommend reading the privacy policies of these third parties:',
+        [
+          'AppLovin (advertising, AppLovin MAX SDK): [privacy policy](https://legal.applovin.com/privacy/)',
+          'Google (Google Play, where you download the app, and the Android advertising ID; YouTube, if you open an original video): [privacy policy](https://policies.google.com/privacy)',
+          'GitHub (website hosting): [privacy statement](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement)'
+        ],
+        'We do not integrate any other analytics, attribution or advertising SDKs. If we add one, we will include it in this list before turning it on.'
       ]],
-      ['5. International transfers', [
-        'If a provider processes data outside the European Economic Area, it will do so with the safeguards of Chapter V of the GDPR, such as an adequacy decision or the European Commission’s standard contractual clauses.'
+      ['4. When we share your information', [
+        'The controller’s hosting and email providers, as processors; PayPal or the bank processing the payment, as independent controllers; in the Android app, AppLovin and the ad networks in its mediation (section 3); and the authorities when the law requires it. We do not sell your data.',
+        'We may also disclose data when required by law, a court order or an authority; to protect our rights, our users or third parties against fraud or unlawful activity; and, if the service is transferred to another owner, to the new owner, who must respect this policy. We will tell you before such a transfer.',
+        '**International transfers.** If a provider processes data outside the European Economic Area, it will do so with the safeguards of Chapter V of the GDPR, such as an adequacy decision or the European Commission’s standard contractual clauses.'
       ]],
-      ['6. Retention', [
+      ['5. Security and retention', [
+        'The WatchEarn web pages are served over HTTPS. Emails with withdrawal requests and payment details are kept in a protected mailbox that only the operator can access, and are used only to process payments. App data is not encrypted on your device: anyone with access to it could see or change it. No system can guarantee absolute security.',
+        '**Retention.** We keep each piece of data only for as long as necessary:',
         [
           'Data on your device: until you delete it.',
           'Withdrawal requests and payments: as long as needed to handle them and then blocked for the legal periods (generally 4 years for tax and 6 years for accounting).',
@@ -139,27 +154,19 @@ Legal.add('en', {
           'Technical logs: the period applied by the hosting provider.'
         ]
       ]],
-      ['7. Security', [
-        'The site is served over HTTPS. Local data is not encrypted inside the app: anyone with access to your browser could see or change it. No system can guarantee absolute security.'
-      ]],
-      ['8. Minors', [
+      ['6. Minors', [
         'WatchEarn is only for people aged {age} or over. If we learn that a request comes from a minor, we will reject it and delete their data, except what we must keep by law.'
       ]],
-      ['9. Your rights', [
+      ['7. Your rights and choices', [
+        'You can use WatchEarn without giving us any personal data: we only need it if you write to us or request a withdrawal.',
         'You can exercise your rights of access, rectification, erasure, objection, restriction and portability by writing to {email}. We reply within one month, extendable by two more months in complex cases. You can delete the data on your device yourself in Settings → Delete my data. You can also complain to the [Spanish Data Protection Agency (AEPD)](https://www.aepd.es/) or to the data protection authority of your country.'
       ]],
-      ['10. Local storage and cookies', [
-        'WatchEarn does not use cookies. The local records are strictly necessary to provide the service you request, so they do not require consent (article 22.2 LSSI). The website has no analytics, advertising or third-party tracking. In the Android app, the AppLovin SDK stores and reads information on your device to show ads (section 11).'
-      ]],
-      ['11. Advertising in the Android app', [
-        '**Who.** The Android app includes the AppLovin MAX SDK from AppLovin Corporation, which serves ads directly or through the ad networks in its mediation. AppLovin and those networks process the data as independent controllers under their own policies ([AppLovin privacy policy](https://www.applovin.com/privacy/)). We do not receive that data in a form that identifies you; only aggregated reports on ads and revenue.',
-        '**What data.** Your device’s advertising ID (unless you have deleted it in the Android settings), IP address, model and operating system, language, time zone, carrier and connection type, the app and the ads shown, and your interactions with them (views, clicks and rewards).',
-        '**Purposes and legal bases.** Showing non-personalised ads, limiting how often they appear, measuring them, crediting rewards and preventing ad fraud: legitimate interest in funding the free service and protecting it (art. 6.1.f GDPR). Showing ads personalised to your interests and measuring them: only with your consent (art. 6.1.a GDPR).',
-        '**Your choice.** The first time you open the app we ask whether you accept personalised ads; declining is just as easy and does not stop you from using the app or earning rewards. You can withdraw or give consent at any time in Settings → Personalised ads, and reset or delete your advertising ID in the Android settings. You can also object to processing based on legitimate interest by writing to us.',
-        '**Transfers and retention.** AppLovin and some networks process data in the United States and other countries outside the European Economic Area, with the safeguards of Chapter V of the GDPR (such as the EU-US Data Privacy Framework or the standard contractual clauses). They keep it for the periods set out in their policies.'
-      ]],
-      ['12. Changes', [
+      ['8. Changes', [
         'If we change this policy, we will update the version and date and tell you about relevant changes in the app. If new processing requires your consent, we will ask for it before starting it.'
+      ]],
+      ['9. Contact', [
+        '**Data controller.** {name}, tax ID {taxId}, with its address at {address}{registry}. Contact and privacy email: {email}.',
+        'If you have any questions, concerns or requests about this policy or how your data is processed, write to us at {email}.'
       ]]
     ]
   }
