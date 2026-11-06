@@ -6,6 +6,7 @@ Legal.add('de', {
   registry: ', eingetragen bei {registry}',
   adrYes: 'Wir nehmen an {adr} teil.',
   adrNo: 'Wir nehmen an keinem Verfahren zur alternativen Beilegung von Verbraucherstreitigkeiten teil.',
+  allCountries: 'einem Land, in dem wir per PayPal an dich auszahlen können und die Teilnahme gesetzlich erlaubt ist (außer {excluded})',
   version: 'Version {version} · Zuletzt aktualisiert: {date}',
   rules: {
     intro: 'Bis {c25} Münzen sinkt der Faktor der Preise von {f0} auf {f25} ihres Grundwerts; bis {c30} auf {f30}; bis {c40} auf {f40}; danach beschleunigt sich der Rückgang. Ab {c45} Münzen verringert eine zweite, zunehmende Bremse alle Belohnungen, bis sie bei {c50} durch 300 geteilt sind. Kein einzelner Preis übersteigt {max} Münzen.',

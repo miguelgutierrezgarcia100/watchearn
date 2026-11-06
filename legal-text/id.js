@@ -6,6 +6,7 @@ Legal.add('id', {
   registry: ', terdaftar di {registry}',
   adrYes: 'Kami tergabung dalam {adr}.',
   adrNo: 'Kami tidak tergabung dalam sistem penyelesaian sengketa konsumen alternatif mana pun.',
+  allCountries: 'negara mana pun tempat kami dapat membayar Anda melalui PayPal dan hukum mengizinkan keikutsertaan (kecuali {excluded})',
   version: 'Versi {version} · Terakhir diperbarui: {date}',
   rules: {
     intro: 'Hingga {c25} koin, faktor hadiah turun dari {f0} ke {f25} dari nilai dasarnya; hingga {c30}, ke {f30}; hingga {c40}, ke {f40}; setelah itu penurunannya makin cepat. Mulai {c45} koin, rem progresif kedua mengurangi semua hadiah hingga terbagi 300 saat mencapai {c50}. Tidak ada hadiah tunggal yang melebihi {max} koin.',

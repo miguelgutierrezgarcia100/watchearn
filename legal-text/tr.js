@@ -6,6 +6,7 @@ Legal.add('tr', {
   registry: ', {registry} nezdinde kayıtlı',
   adrYes: '{adr} sistemine üyeyiz.',
   adrNo: 'Herhangi bir alternatif tüketici uyuşmazlığı çözüm sistemine üye değiliz.',
+  allCountries: 'PayPal ile ödeme yapabildiğimiz ve katılımın yasal olduğu tüm ülkeler ({excluded} hariç)',
   version: 'Sürüm {version} · Son güncelleme: {date}',
   rules: {
     intro: '{c25} jetona kadar ödül katsayısı, ödüllerin temel değerinin {f0} oranından {f25} oranına iner; {c30} jetona kadar {f30}, {c40} jetona kadar {f40} olur; sonra düşüş hızlanır. {c45} jetondan itibaren ikinci, giderek artan bir fren tüm ödülleri azaltır ve {c50} jetona ulaşıldığında 300’e böler. Hiçbir tekil ödül {max} jetonu aşmaz.',

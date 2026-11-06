@@ -6,6 +6,7 @@ Legal.add('fr', {
   registry: ', immatriculée auprès de {registry}',
   adrYes: 'Nous adhérons à {adr}.',
   adrNo: 'Nous n’adhérons à aucun dispositif de règlement extrajudiciaire des litiges de consommation.',
+  allCountries: 'tout pays où nous pouvons vous payer par PayPal et où la loi permet de participer (sauf {excluded})',
   version: 'Version {version} · Dernière mise à jour : {date}',
   rules: {
     intro: 'Jusqu’à {c25} pièces, le facteur des gains passe de {f0} à {f25} de leur valeur de base ; jusqu’à {c30}, à {f30} ; jusqu’à {c40}, à {f40} ; ensuite, la baisse s’accélère. À partir de {c45} pièces, un second frein progressif réduit toutes les récompenses jusqu’à les diviser par 300 à {c50}. Aucun gain individuel ne dépasse {max} pièces.',

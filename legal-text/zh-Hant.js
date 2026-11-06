@@ -6,6 +6,7 @@ Legal.add('zh-Hant', {
   registry: '，登記於{registry}',
   adrYes: '我們已加入{adr}。',
   adrNo: '我們未加入任何消費爭議替代解決機制。',
+  allCountries: '我們可透過 PayPal 向你付款且法律允許參與的任何國家（{excluded}除外）',
   version: '版本 {version} · 最後更新：{date}',
   rules: {
     intro: '在 {c25} 金幣以內，獎勵係數從基礎值的 {f0} 降至 {f25}；到 {c30} 時降至 {f30}；到 {c40} 時降至 {f40}；之後下降加速。從 {c45} 金幣起，第二道漸進式制動會持續削減所有獎勵，到 {c50} 時降為原本的三百分之一。任何單次獎勵都不超過 {max} 金幣。',

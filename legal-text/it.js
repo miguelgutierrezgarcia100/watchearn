@@ -6,6 +6,7 @@ Legal.add('it', {
   registry: ', iscritta presso {registry}',
   adrYes: 'Aderiamo a {adr}.',
   adrNo: 'Non aderiamo ad alcun sistema di risoluzione alternativa delle controversie dei consumatori.',
+  allCountries: 'qualsiasi paese in cui possiamo pagarti tramite PayPal e la legge consente di partecipare (tranne {excluded})',
   version: 'Versione {version} · Ultimo aggiornamento: {date}',
   rules: {
     intro: 'Fino a {c25} monete, il fattore dei premi scende da {f0} a {f25} del loro valore base; fino a {c30}, a {f30}; fino a {c40}, a {f40}; poi il calo accelera. Da {c45} monete, un secondo freno progressivo riduce tutte le ricompense fino a dividerle per 300 a {c50}. Nessun premio singolo supera {max} monete.',

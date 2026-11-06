@@ -11,7 +11,10 @@ const WatchEarnLegal = Object.freeze({
     registry: ''   // Solo sociedades: datos de inscripción en el Registro Mercantil (si eres autónomo, déjalo vacío)
   }),
   hosting: 'GitHub, Inc. (Estados Unidos)',     // Proveedor de alojamiento y país, p. ej. «Netlify, Inc. (Estados Unidos)»
-  countries: ['ES'],        // Países (códigos ISO) cuyos residentes pueden participar y cobrar, p. ej. ['ES', 'PT', 'GB']
+  // Países cuyos residentes pueden participar y cobrar: 'ALL' (todos los países en los que podamos pagar por PayPal y la
+  // ley permita participar, salvo excludedCountries) o una lista de códigos ISO, p. ej. ['ES', 'PT', 'GB'].
+  countries: 'ALL',
+  excludedCountries: ['BY', 'CU', 'IR', 'KP', 'RU', 'SY'],   // Sanciones internacionales; PayPal tampoco opera en ellos
   minAge: 18,
   payoutDays: 30,           // Plazo máximo para pagar una retirada válida, en días naturales
   closingNoticeDays: 30,    // Preaviso mínimo antes de cerrar el servicio

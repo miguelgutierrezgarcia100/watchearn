@@ -5,7 +5,7 @@
 // translation has the same structure and placeholders as the Spanish one and that the hour estimates match the economy.
 const Legal = (() => {
   // 1.0: first public release on Google Play (privacy policy reorganised, third-party SDKs in section 3).
-  const VERSION = '1.0', EFFECTIVE = new Date(2026, 10, 5);
+  const VERSION = '1.0', EFFECTIVE = new Date(2026, 10, 6);
   const config = typeof WatchEarnLegal !== 'undefined' ? WatchEarnLegal : {operator: {}};
   const operator = config.operator || {};
   const texts = {}, loading = {};
@@ -16,17 +16,23 @@ const Legal = (() => {
   const contactEmail = () => /^[^\s@<>"']+@[^\s@<>"']+\.[^\s@<>"']+$/.test(raw('email')) ? raw('email') : '';
   const missing = () => ['name', 'taxId', 'address', 'email', 'hosting'].filter(key => key === 'email' ? !contactEmail() : !raw(key));
   const minAge = () => Number(config.minAge) || 18;
-  const countryCodes = () => Array.isArray(config.countries) && config.countries.length ? config.countries : ['ES'];
+  // countries: 'ALL' (every country where we can pay by PayPal and taking part is legal, except excludedCountries) or ISO codes.
+  const allCountries = () => config.countries === 'ALL';
+  const excludedCodes = () => Array.isArray(config.excludedCountries) ? config.excludedCountries : [];
+  const countryCodes = () => allCountries() ? [] : Array.isArray(config.countries) && config.countries.length ? config.countries : ['ES'];
   const code = () => typeof I18n !== 'undefined' ? I18n.code : 'es';
   const locale = () => typeof I18n !== 'undefined' ? I18n.locale : 'es-ES';
   const text = (lang = code()) => texts[lang] || texts.es;
   const num = (value, options = {}) => new Intl.NumberFormat(locale(), options).format(value);
   const money = (coins, options = {}) => typeof Currency !== 'undefined' ? Currency.money(coins, locale(), options) : num(coins / 1000, {style: 'currency', currency: 'EUR', ...(options.whole ? {maximumFractionDigits: 0} : {})});
   const list = (items, type = 'conjunction') => { try { return new Intl.ListFormat(locale(), {type}).format(items); } catch { return items.join(', '); } };
-  function countries() {
-    let names = countryCodes();
-    try { const display = new Intl.DisplayNames([locale()], {type: 'region'}); names = names.map(c => display.of(c)); } catch {}
-    return list(names);
+  const regionNames = codes => { try { const display = new Intl.DisplayNames([locale()], {type: 'region'}); return codes.map(c => display.of(c)); } catch { return codes; } };
+  // Eligible countries as safe HTML, in the language of the legal text t: a list of names, or the 'all countries' phrase.
+  function countries(t = text()) {
+    if (!allCountries()) return esc(list(regionNames(countryCodes())));
+    const excluded = regionNames(excludedCodes()).sort((a, b) => a.localeCompare(b, locale()));
+    const template = excluded.length ? t.allCountries : t.allCountries.replace(/\s*[(（][^()（）]*\{excluded\}[^()（）]*[)）]/, '');
+    return render(template, {excluded: esc(list(excluded))});
   }
 
   function add(lang, data) { texts[lang] = data; }
@@ -58,7 +64,7 @@ const Legal = (() => {
       name: pending('name'), taxId: pending('taxId'), address: pending('address'), hosting: pending('hosting'), email,
       registry: raw('registry') ? render(t.registry, {registry: esc(raw('registry'))}) : '',
       adr: String(config.adr || '').trim() ? render(t.adrYes, {adr: esc(String(config.adr).trim())}) : esc(t.adrNo),
-      countries: esc(countries()), age: num(minAge()),
+      countries: countries(t), age: num(minAge()),
       goal: esc(money(E.firstGoal, {whole: true})), rate: esc(money(1000)), c1: num(1000), c50: num(E.firstGoal),
       amounts: esc(list(E.cashoutEuros.map(n => money(n * 1000, {whole: true})), 'disjunction')),
       payoutDays: num(Number(config.payoutDays) || 30), noticeDays: num(Number(config.closingNoticeDays) || 30), claimDays: num(Number(config.closingClaimDays) || 60),
@@ -118,5 +124,7 @@ const Legal = (() => {
   }
 
   return {VERSION, estimates, add, load, texts, missing, contactEmail, termsHTML, privacyHTML, title, withdrawalEmail, render,
-    get minAge() { return minAge(); }, get payoutDays() { return Number(config.payoutDays) || 30; }, get countries() { return countryCodes(); }};
+    countriesText: (lang = code()) => countries(text(lang)),
+    get minAge() { return minAge(); }, get payoutDays() { return Number(config.payoutDays) || 30; }, get countries() { return countryCodes(); },
+    get global() { return allCountries(); }, get excludedCountries() { return excludedCodes(); }};
 })();

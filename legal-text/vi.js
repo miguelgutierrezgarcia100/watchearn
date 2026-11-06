@@ -6,6 +6,7 @@ Legal.add('vi', {
   registry: ', đăng ký tại {registry}',
   adrYes: 'Chúng tôi tham gia {adr}.',
   adrNo: 'Chúng tôi không tham gia bất kỳ cơ chế giải quyết tranh chấp tiêu dùng thay thế nào.',
+  allCountries: 'bất kỳ quốc gia nào mà chúng tôi có thể thanh toán cho bạn qua PayPal và pháp luật cho phép tham gia (trừ {excluded})',
   version: 'Phiên bản {version} · Cập nhật lần cuối: {date}',
   rules: {
     intro: 'Đến {c25} xu, hệ số giải thưởng giảm từ {f0} xuống {f25} giá trị gốc; đến {c30}, xuống {f30}; đến {c40}, xuống {f40}; sau đó mức giảm nhanh hơn. Từ {c45} xu, một cơ chế phanh tăng dần thứ hai giảm mọi phần thưởng cho đến khi chia cho 300 lúc đạt {c50}. Không giải thưởng đơn lẻ nào vượt quá {max} xu.',

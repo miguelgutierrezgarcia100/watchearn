@@ -7,12 +7,6 @@
   const config = typeof WatchEarnLegal !== 'undefined' ? WatchEarnLegal : {operator: {}};
   const field = key => String(config.operator?.[key] || '').trim();
 
-  function countries() {
-    let names = Legal.countries;
-    try { const display = new Intl.DisplayNames([I18n.locale], {type: 'region'}); names = names.map(code => display.of(code)); } catch {}
-    try { return new Intl.ListFormat(I18n.locale, {type: 'conjunction'}).format(names); } catch { return names.join(', '); }
-  }
-
   async function render() {
     const picker = document.querySelector('[data-language]');
     if (picker) picker.innerHTML = I18n.languagePicker();
@@ -26,10 +20,11 @@
     set('#hours-title', t('hoursTitle', {hours, goal}));
     set('#hours-info', t('hoursInfo', {h45: num(E.at45), last}));
     set('#payout', t('payoutNote', {n: num(Legal.payoutDays)}));
-    set('#countries', t('availableIn', {countries: countries()}));
     document.querySelector('#adults').textContent = `Solo mayores de ${Legal.minAge} años`;
 
     await Legal.load();
+    // Legal.countriesText is already safe HTML (country names escaped).
+    set('#countries', esc(I18n.t('availableIn', {countries: '\u0000'})).replace('\u0000', Legal.countriesText()));
     const labels = (Legal.texts[I18n.code] || Legal.texts.es).fields, email = Legal.contactEmail();
     const capital = text => text.charAt(0).toLocaleUpperCase(I18n.locale) + text.slice(1);
     set('#email', email ? `<a href="mailto:${esc(email)}">${esc(email)}</a>` : '');

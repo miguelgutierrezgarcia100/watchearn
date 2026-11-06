@@ -6,6 +6,7 @@ Legal.add('zh-Hans', {
   registry: '，注册于{registry}',
   adrYes: '我们已加入{adr}。',
   adrNo: '我们未加入任何消费纠纷替代解决机制。',
+  allCountries: '我们可通过 PayPal 向你付款且法律允许参与的任何国家（{excluded}除外）',
   version: '版本 {version} · 最后更新：{date}',
   rules: {
     intro: '在 {c25} 金币以内，奖励系数从基础值的 {f0} 降至 {f25}；到 {c30} 时降至 {f30}；到 {c40} 时降至 {f40}；之后下降加速。从 {c45} 金币起，第二道渐进式制动会持续削减所有奖励，到 {c50} 时降为原来的三百分之一。任何单次奖励都不超过 {max} 金币。',

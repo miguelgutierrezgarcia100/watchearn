@@ -6,6 +6,7 @@ Legal.add('en', {
   registry: ', registered with {registry}',
   adrYes: 'We are members of {adr}.',
   adrNo: 'We are not members of any alternative consumer dispute resolution scheme.',
+  allCountries: 'any country where we can pay you by PayPal and the law allows you to take part (except {excluded})',
   version: 'Version {version} · Last updated: {date}',
   rules: {
     intro: 'Up to {c25} coins, the prize factor falls from {f0} to {f25} of each prize’s base value; up to {c30}, to {f30}; up to {c40}, to {f40}; after that the decline speeds up. From {c45} coins, a second progressive brake reduces every reward until it is divided by 300 at {c50}. No single prize exceeds {max} coins.',
