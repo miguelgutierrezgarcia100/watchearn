@@ -117,7 +117,7 @@ const Legal = (() => {
   // Withdrawal request sent by the user's own email app (to the operator, in Spanish): the app itself sends nothing.
   function withdrawalEmail({id, coins, amount, currency = 'EUR', method, date}) {
     const to = contactEmail(), subject = `Solicitud de retirada ${id} · ${amount}`;
-    const body = ['Hola:', '', 'Solicito esta retirada de WatchEarn:', '', `Código: ${id}`, `Importe: ${amount} (${currency})`, `Monedas: ${new Intl.NumberFormat('es-ES', {useGrouping: 'always'}).format(coins)}`, `Método: ${method}`, `Fecha: ${date}`, `Condiciones aceptadas: versión ${VERSION}`, '',
+    const body = ['Hola:', '', 'Solicito esta retirada de ScrollPay:', '', `Código: ${id}`, `Importe: ${amount} (${currency})`, `Monedas: ${new Intl.NumberFormat('es-ES', {useGrouping: 'always'}).format(coins)}`, `Método: ${method}`, `Fecha: ${date}`, `Condiciones aceptadas: versión ${VERSION}`, '',
       method === 'Bizum' ? 'Mi número de móvil de Bizum: ' : 'Mi correo de PayPal: ', 'Nombre del titular de la cuenta: ', 'País de residencia: ', '',
       `Confirmo que tengo ${minAge()} años o más y que la cuenta de cobro está a mi nombre.`].join('\n');
     return {to, subject, body, href: to ? `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}` : null};

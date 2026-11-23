@@ -15,7 +15,7 @@
 
     const E = Legal.estimates, goal = I18n.money(CliplyEconomy.firstGoal, {whole: true});
     const hours = num(Math.round((E.range[0] + E.range[1]) / 2 / 100) * 100), last = num(Math.floor((E.range[0] - E.at45) / 100) * 100);
-    document.title = `WatchEarn · ${I18n.t('aboutTitle')}`;
+    document.title = `ScrollPay · ${I18n.t('aboutTitle')}`;
     set('#redeem', t('redeemInfo', {rate: I18n.money(1000), goal}));
     set('#hours-title', t('hoursTitle', {hours, goal}));
     set('#hours-info', t('hoursInfo', {h45: num(E.at45), last}));

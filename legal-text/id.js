@@ -19,7 +19,7 @@ Legal.add('id', {
     title: 'Ketentuan penggunaan',
     summaryTitle: '**Intinya** (ringkasan ini tidak menggantikan teks lengkap):',
     summary: [
-      'WatchEarn gratis. Hanya untuk orang berusia {age} tahun ke atas yang tinggal di {countries}.',
+      'ScrollPay gratis. Hanya untuk orang berusia {age} tahun ke atas yang tinggal di {countries}.',
       '{c1} koin = {rate}. Penarikan pertama sebesar {goal} dan diperiksa secara manual sebelum dibayar.',
       '**Hadiah makin kecil.** Mencapai penarikan pertama butuh sekitar {range} jam penggunaan aktif; 10% terakhir dari target saja butuh lebih dari {last} jam. Ini bukan sumber penghasilan.',
       'Saldo Anda hanya tersimpan di perangkat ini (di browser atau di aplikasi). Jika Anda menghapus datanya, mencopot aplikasi, atau berganti perangkat, saldo hilang dan kami tidak dapat memulihkannya.',
@@ -27,16 +27,16 @@ Legal.add('id', {
     ],
     sections: [
       ['1. Penyedia layanan', [
-        'WatchEarn disediakan oleh {name}, nomor pajak {taxId}, beralamat di {address}{registry}. Email kontak: {email}. Informasi ini diberikan sesuai Pasal 10 Undang-Undang Spanyol 34/2002 tentang layanan masyarakat informasi dan perdagangan elektronik (LSSI).'
+        'ScrollPay disediakan oleh {name}, nomor pajak {taxId}, beralamat di {address}{registry}. Email kontak: {email}. Informasi ini diberikan sesuai Pasal 10 Undang-Undang Spanyol 34/2002 tentang layanan masyarakat informasi dan perdagangan elektronik (LSSI).'
       ]],
       ['2. Ruang lingkup dan persetujuan', [
-        'Ketentuan ini mengatur penggunaan WatchEarn: layanan gratis tempat Anda menonton video pendek, menyelesaikan tugas dan game, serta mengumpulkan koin yang dapat ditukar dengan uang sesuai bagian 6. Tidak perlu pembelian, pembayaran, atau langganan apa pun.',
+        'Ketentuan ini mengatur penggunaan ScrollPay: layanan gratis tempat Anda menonton video pendek, menyelesaikan tugas dan game, serta mengumpulkan koin yang dapat ditukar dengan uang sesuai bagian 6. Tidak perlu pembelian, pembayaran, atau langganan apa pun.',
         'Layanan ini bisa mengalami kesalahan dan gangguan serta berubah sesuai bagian 9. Kami tidak menjamin ketersediaannya terus-menerus.',
         'Untuk menyetujui ketentuan ini, tekan «Saya sudah membaca dan setuju». Dengan menyetujuinya, Anda menyatakan memenuhi persyaratan di bagian 3. Tanpa persetujuan, video tidak diputar dan hadiah tidak diperoleh. Kami menyimpan versi yang disetujui dan tanggalnya di browser Anda.',
         'Kami tidak mengarsipkan salinan individual persetujuan Anda: ketentuan ini selalu tersedia di halaman [Ketentuan penggunaan](terms.html), tempat Anda dapat menyimpan atau mencetaknya (Pasal 27 LSSI). Ketentuan ini tersedia dalam beberapa bahasa; jika terjemahan berbeda, versi bahasa Spanyol yang berlaku.'
       ]],
       ['3. Siapa yang boleh ikut', [
-        'Anda dapat menggunakan WatchEarn jika berusia {age} tahun ke atas, cakap membuat perjanjian, dan tinggal di {countries}. Setiap orang hanya boleh ikut dengan satu profil, yaitu satu browser di satu perangkat. Saldo dari browser atau perangkat berbeda tidak dapat digabungkan, dipindahkan, atau ditukarkan bersama.'
+        'Anda dapat menggunakan ScrollPay jika berusia {age} tahun ke atas, cakap membuat perjanjian, dan tinggal di {countries}. Setiap orang hanya boleh ikut dengan satu profil, yaitu satu browser di satu perangkat. Saldo dari browser atau perangkat berbeda tidak dapat digabungkan, dipindahkan, atau ditukarkan bersama.'
       ]],
       ['4. Cara mendapatkan koin', [
         '**Menonton.** Yang dihitung adalah waktu pemutaran aktif saat pertama kali menonton setiap kemunculan video, ditambahkan dalam interval 3,5 hingga 6,5 detik. Jeda, aplikasi di latar belakang, lompatan, dan pengulangan otomatis tidak dihitung.',
@@ -48,7 +48,7 @@ Legal.add('id', {
         '{currencies}',
         '**Hadiah berkurang seiring bertambahnya saldo Anda:**',
         '{rules}',
-        '**Perkiraan waktu.** Menurut simulasi kami atas sistem saat ini, mencapai penarikan pertama butuh sekitar {range} jam penggunaan aktif, dengan atau tanpa bonus dan game. Hanya menonton video: setengah target dalam kurang dari {m25} menit, 80% dalam sekitar {h40} jam, 90% dalam sekitar {h45} jam, 98% dalam sekitar {h49} jam, dan target penuh dalam sekitar {h50} jam. Dengan tiga jam sehari, itu lebih dari dua tahun. Ini adalah perkiraan, bukan jaminan, dan WatchEarn bukan pekerjaan maupun sumber penghasilan.'
+        '**Perkiraan waktu.** Menurut simulasi kami atas sistem saat ini, mencapai penarikan pertama butuh sekitar {range} jam penggunaan aktif, dengan atau tanpa bonus dan game. Hanya menonton video: setengah target dalam kurang dari {m25} menit, 80% dalam sekitar {h40} jam, 90% dalam sekitar {h45} jam, 98% dalam sekitar {h49} jam, dan target penuh dalam sekitar {h50} jam. Dengan tiga jam sehari, itu lebih dari dua tahun. Ini adalah perkiraan, bukan jaminan, dan ScrollPay bukan pekerjaan maupun sumber penghasilan.'
       ]],
       ['6. Penarikan', [
         'Anda dapat mengajukan penarikan {amounts} setelah saldo Anda mencapai jumlah tersebut. Kami membayar melalui PayPal atau, di Spanyol, melalui Bizum ke rekening atas nama Anda.',
@@ -62,9 +62,9 @@ Legal.add('id', {
         'Jika kami menemukan perilaku tersebut, kami dapat membatalkan koin yang diperoleh secara tidak sah, menolak penarikan terkait, dan mengeluarkan Anda dari layanan, secara proporsional dan dengan memberi tahu alasannya bila memungkinkan. Kami juga dapat mengoreksi jumlah yang dikreditkan akibat kesalahan teknis yang jelas.'
       ]],
       ['8. Konten dan kekayaan intelektual', [
-        'Video adalah milik kreator dan pemegang haknya; WatchEarn menampilkan nama kreator dan tautan ke video asli. Anda tidak memperoleh hak apa pun atasnya: Anda hanya boleh menontonnya di dalam aplikasi untuk penggunaan pribadi. Tautan ke YouTube dan situs lain mengarah ke layanan pihak ketiga dengan ketentuannya sendiri.',
+        'Video adalah milik kreator dan pemegang haknya; ScrollPay menampilkan nama kreator dan tautan ke video asli. Anda tidak memperoleh hak apa pun atasnya: Anda hanya boleh menontonnya di dalam aplikasi untuk penggunaan pribadi. Tautan ke YouTube dan situs lain mengarah ke layanan pihak ketiga dengan ketentuannya sendiri.',
         'Jika Anda pemegang hak dan menganggap suatu konten digunakan tanpa izin, kirim email ke {email} dengan menyebutkan kontennya, hak Anda, dan data kontak Anda. Kami akan segera menghapusnya setelah benar-benar mengetahui bahwa penggunaannya melanggar hukum.',
-        'Nama, desain, dan kode WatchEarn adalah milik penyedia layanan, kecuali sumber daya pihak ketiga dengan lisensinya sendiri, seperti font DM Sans dan Manrope (SIL Open Font License).'
+        'Nama, desain, dan kode ScrollPay adalah milik penyedia layanan, kecuali sumber daya pihak ketiga dengan lisensinya sendiri, seperti font DM Sans dan Manrope (SIL Open Font License).'
       ]],
       ['9. Perubahan dan penutupan layanan', [
         'Kami dapat mengubah layanan, hadiah, atau ketentuan ini karena alasan yang sah (hukum, teknis, keamanan, pencegahan penipuan, keberlanjutan, atau pengembangan layanan), dengan pemberitahuan di aplikasi setidaknya 15 hari sebelumnya, kecuali perubahan mendesak yang diwajibkan hukum atau keamanan. Untuk terus memakai aplikasi, Anda harus menyetujui versi baru; jika tidak, Anda dapat berhenti memakainya dan mengajukan penarikan yang sudah menjadi hak Anda. Koin yang sudah diperoleh tetap memiliki nilai tukarnya.',
@@ -74,7 +74,7 @@ Legal.add('id', {
         'Kami bertanggung jawab atas kerugian akibat kesengajaan atau kelalaian berat dan atas kerugian yang tanggung jawabnya tidak dapat dikecualikan menurut hukum. Kami tidak bertanggung jawab atas gangguan di luar kendali kami atau hilangnya saldo karena data browser dihapus, mode penjelajahan pribadi, atau pergantian perangkat. Tidak ada dalam ketentuan ini yang membatasi hak Anda sebagai konsumen.'
       ]],
       ['11. Durasi, berhenti, dan pembatalan', [
-        'Perjanjian berlaku selama Anda menggunakan layanan dan paling lama hingga layanan ditutup. Anda dapat berhenti memakai WatchEarn kapan saja tanpa biaya dan menghapus semua datanya melalui Pengaturan → Hapus data saya. Anda juga dapat membatalkan perjanjian dalam 14 hari kalender sesuai Pasal 102 Undang-Undang Umum Spanyol tentang Perlindungan Konsumen dan Pengguna, tanpa menyebutkan alasan: cukup berhenti memakai aplikasi dan, jika mau, memberi tahu kami. Kami dapat mengakhiri perjanjian jika Anda melanggar ketentuan ini, dengan memberi tahu alasannya.'
+        'Perjanjian berlaku selama Anda menggunakan layanan dan paling lama hingga layanan ditutup. Anda dapat berhenti memakai ScrollPay kapan saja tanpa biaya dan menghapus semua datanya melalui Pengaturan → Hapus data saya. Anda juga dapat membatalkan perjanjian dalam 14 hari kalender sesuai Pasal 102 Undang-Undang Umum Spanyol tentang Perlindungan Konsumen dan Pengguna, tanpa menyebutkan alasan: cukup berhenti memakai aplikasi dan, jika mau, memberi tahu kami. Kami dapat mengakhiri perjanjian jika Anda melanggar ketentuan ini, dengan memberi tahu alasannya.'
       ]],
       ['12. Privasi', [
         'Pemrosesan data Anda dijelaskan dalam [Kebijakan privasi](privacy.html).'
@@ -89,7 +89,7 @@ Legal.add('id', {
         'Jika suatu klausul dinyatakan batal, klausul lainnya tetap berlaku dan klausul yang terdampak digantikan oleh ketentuan hukum yang berlaku.'
       ]],
       ['16. Aplikasi Android dan iklan', [
-        'WatchEarn juga tersedia sebagai aplikasi Android, dengan layanan yang sama dan ketentuan yang sama ini. Di aplikasi, rujukan ke browser berarti rujukan ke aplikasi: saldo Anda tersimpan di dalamnya dan hilang jika Anda menghapus datanya atau mencopotnya, dan setiap instalasi di satu perangkat dihitung sebagai satu profil (bagian 3).',
+        'ScrollPay juga tersedia sebagai aplikasi Android, dengan layanan yang sama dan ketentuan yang sama ini. Di aplikasi, rujukan ke browser berarti rujukan ke aplikasi: saldo Anda tersimpan di dalamnya dan hilang jika Anda menghapus datanya atau mencopotnya, dan setiap instalasi di satu perangkat dihitung sebagai satu profil (bagian 3).',
         'Aplikasi menampilkan iklan dari AppLovin dan mitra mediasinya: **iklan layar penuh** di antara video, paling sering setiap beberapa video dan tanpa koin, serta **video berhadiah** opsional yang Anda pilih untuk ditonton guna mendapatkan koin tambahan di Hadiah (hingga {adsPerDay} per hari) atau menggandakan hadiah peti atau bonus koin. Hadiah yang digandakan juga tidak pernah melebihi {max} koin.',
         'Koin dari video berhadiah hanya dikreditkan jika AppLovin mengonfirmasi bahwa Anda menontonnya sampai selesai. Jika Anda menutupnya lebih awal atau video gagal, tidak ada hadiah dan hadiah yang tertunda tetap ada tanpa digandakan. Kami tidak menjamin iklan selalu tersedia. Mengetuk iklan bersifat sukarela dan tidak memberi koin; membuat tayangan atau klik buatan dilarang (bagian 7). Iklan dan hal yang diiklankan menjadi tanggung jawab pengiklannya.',
         'Iklan yang dipersonalisasi hanya ditampilkan dengan persetujuan Anda, yang dapat Anda ubah di Pengaturan; pemrosesan data Anda dijelaskan dalam [Kebijakan privasi](privacy.html).'
@@ -99,7 +99,7 @@ Legal.add('id', {
   privacy: {
     title: 'Kebijakan privasi',
     summaryTitle: '**Intinya**',
-    intro: 'WatchEarn (“kami”) berkomitmen melindungi privasi Anda. Kebijakan ini menjelaskan informasi apa yang kami kumpulkan, cara kami menggunakannya, dan cara kami melindunginya saat Anda menggunakan WatchEarn, termasuk layanan pihak ketiga yang terintegrasi di aplikasi.',
+    intro: 'ScrollPay (“kami”) berkomitmen melindungi privasi Anda. Kebijakan ini menjelaskan informasi apa yang kami kumpulkan, cara kami menggunakannya, dan cara kami melindunginya saat Anda menggunakan ScrollPay, termasuk layanan pihak ketiga yang terintegrasi di aplikasi.',
     summary: [
       'Tanpa pendaftaran atau akun: progres Anda tersimpan di perangkat Anda dan tidak kami terima.',
       'Kami hanya memproses data pribadi jika Anda menghubungi kami atau mengajukan penarikan.',
@@ -110,10 +110,10 @@ Legal.add('id', {
       ['1. Informasi yang kami kumpulkan', [
         '**1.1 Data pribadi.** Jika Anda mengirim permintaan penarikan atau menghubungi kami, kami memproses alamat email, nama, data rekening penerimaan (nomor Bizum atau email PayPal), negara tempat tinggal, kode, jumlah, dan tanggal permintaan, serta isi pesan. Jika diperlukan untuk memeriksa persyaratan, kami dapat meminta bukti identitas, usia, dan tempat tinggal, hanya yang benar-benar perlu.',
         '**1.2 Data penggunaan.** Aplikasi menyimpan di penyimpanan lokal browser Anda saldo, transaksi, tugas, game, video tersimpan, urutan feed, waktu menonton, hadiah tertunda, permintaan penarikan, pengaturan dan bahasa, serta versi dan tanggal ketentuan yang disetujui, dalam catatan `watchearn-v1`, `watchearn-terms`, dan `watchearn-language`. Data ini tidak dikirim ke server kami dan kami tidak dapat mengaksesnya.',
-        '**1.3 Data perangkat.** Di aplikasi Android, SDK iklan AppLovin mengumpulkan data teknis dari perangkat Anda, seperti ID iklan, alamat IP, model, dan sistem operasi (bagian 3). Jika Anda mengunjungi situs web WatchEarn, penyedia hosting ({hosting}) menerima alamat IP Anda, halaman yang diminta, tanggal dan waktu, serta data teknis browser untuk menyajikan dan melindungi situs. Mata uang dan bahasa dipilih berdasarkan zona waktu dan bahasa perangkat Anda, tanpa mengirimkannya ke siapa pun atau menggunakan lokasi Anda.',
+        '**1.3 Data perangkat.** Di aplikasi Android, SDK iklan AppLovin mengumpulkan data teknis dari perangkat Anda, seperti ID iklan, alamat IP, model, dan sistem operasi (bagian 3). Jika Anda mengunjungi situs web ScrollPay, penyedia hosting ({hosting}) menerima alamat IP Anda, halaman yang diminta, tanggal dan waktu, serta data teknis browser untuk menyajikan dan melindungi situs. Mata uang dan bahasa dipilih berdasarkan zona waktu dan bahasa perangkat Anda, tanpa mengirimkannya ke siapa pun atau menggunakan lokasi Anda.',
         '**1.4 Tautan.** Jika Anda membuka video asli, Anda akan menuju YouTube, yang memproses data Anda sesuai kebijakannya sendiri. Jika Anda memakai Bagikan, judul dan tautan diserahkan ke fitur berbagi perangkat Anda.',
         'Kami tidak mengumpulkan data sensitif, seperti asal etnis, keyakinan agama, kesehatan, atau data biometrik, dan kami meminta Anda untuk tidak mengirimkannya kepada kami.',
-        '**Penyimpanan lokal dan cookie.** WatchEarn tidak menggunakan cookie. Catatan lokal mutlak diperlukan untuk menyediakan layanan yang Anda minta, sehingga tidak memerlukan persetujuan (pasal 22.2 LSSI). Situs web tidak memiliki analitik, iklan, atau pelacakan pihak ketiga. Di aplikasi Android, SDK AppLovin menyimpan dan membaca informasi di perangkat Anda untuk menampilkan iklan (bagian 3).'
+        '**Penyimpanan lokal dan cookie.** ScrollPay tidak menggunakan cookie. Catatan lokal mutlak diperlukan untuk menyediakan layanan yang Anda minta, sehingga tidak memerlukan persetujuan (pasal 22.2 LSSI). Situs web tidak memiliki analitik, iklan, atau pelacakan pihak ketiga. Di aplikasi Android, SDK AppLovin menyimpan dan membaca informasi di perangkat Anda untuk menampilkan iklan (bagian 3).'
       ]],
       ['2. Cara kami menggunakan informasi Anda', [
         [
@@ -146,7 +146,7 @@ Legal.add('id', {
         '**Transfer internasional.** Jika ada penyedia yang memproses data di luar Wilayah Ekonomi Eropa, hal itu dilakukan dengan perlindungan Bab V GDPR, seperti keputusan kecukupan atau klausul kontrak standar Komisi Eropa.'
       ]],
       ['5. Keamanan dan masa penyimpanan', [
-        'Halaman web WatchEarn disajikan melalui HTTPS. Email berisi permintaan penarikan dan data pembayaran disimpan di kotak surat terlindungi yang hanya dapat diakses oleh pemilik layanan, dan hanya digunakan untuk memproses pembayaran. Data aplikasi tidak dienkripsi di perangkat Anda: siapa pun yang dapat mengaksesnya bisa melihat atau mengubahnya. Tidak ada sistem yang menjamin keamanan mutlak.',
+        'Halaman web ScrollPay disajikan melalui HTTPS. Email berisi permintaan penarikan dan data pembayaran disimpan di kotak surat terlindungi yang hanya dapat diakses oleh pemilik layanan, dan hanya digunakan untuk memproses pembayaran. Data aplikasi tidak dienkripsi di perangkat Anda: siapa pun yang dapat mengaksesnya bisa melihat atau mengubahnya. Tidak ada sistem yang menjamin keamanan mutlak.',
         '**Masa penyimpanan.** Kami menyimpan setiap data hanya selama diperlukan:',
         [
           'Data di perangkat Anda: sampai Anda menghapusnya.',
@@ -156,10 +156,10 @@ Legal.add('id', {
         ]
       ]],
       ['6. Anak di bawah umur', [
-        'WatchEarn hanya untuk orang berusia {age} tahun ke atas. Jika kami mengetahui suatu permintaan berasal dari anak di bawah umur, kami akan menolaknya dan menghapus datanya, kecuali yang wajib kami simpan menurut hukum.'
+        'ScrollPay hanya untuk orang berusia {age} tahun ke atas. Jika kami mengetahui suatu permintaan berasal dari anak di bawah umur, kami akan menolaknya dan menghapus datanya, kecuali yang wajib kami simpan menurut hukum.'
       ]],
       ['7. Hak dan pilihan Anda', [
-        'Anda dapat menggunakan WatchEarn tanpa memberikan data pribadi apa pun kepada kami: kami hanya membutuhkannya jika Anda menulis kepada kami atau mengajukan penarikan.',
+        'Anda dapat menggunakan ScrollPay tanpa memberikan data pribadi apa pun kepada kami: kami hanya membutuhkannya jika Anda menulis kepada kami atau mengajukan penarikan.',
         'Anda dapat menggunakan hak akses, perbaikan, penghapusan, keberatan, pembatasan, dan portabilitas dengan mengirim email ke {email}. Kami membalas dalam satu bulan, dapat diperpanjang dua bulan lagi untuk kasus yang rumit. Data di perangkat dapat Anda hapus sendiri melalui Pengaturan → Hapus data saya. Anda juga dapat mengadu ke [Badan Perlindungan Data Spanyol (AEPD)](https://www.aepd.es/) atau otoritas perlindungan data di negara Anda.'
       ]],
       ['8. Perubahan', [

@@ -21,7 +21,7 @@ Legal.add('es', {
     title: 'Condiciones de uso',
     summaryTitle: '**Lo esencial** (este resumen no sustituye al texto completo):',
     summary: [
-      'WatchEarn es gratuito. Solo para mayores de {age} años residentes en {countries}.',
+      'ScrollPay es gratuito. Solo para mayores de {age} años residentes en {countries}.',
       '{c1} monedas = {rate}. La primera retirada es de {goal} y se revisa a mano antes de pagarla.',
       '**Las recompensas decrecen.** Llegar a la primera retirada requiere unas {range} horas de uso activo; el último 10 % de la meta, más de {last} horas. No es una fuente de ingresos.',
       'Tu saldo se guarda solo en este dispositivo (en el navegador o en la app). Si borras sus datos, desinstalas la app o cambias de dispositivo, se pierde y no podemos recuperarlo.',
@@ -29,16 +29,16 @@ Legal.add('es', {
     ],
     sections: [
       ['1. Titular del servicio', [
-        'WatchEarn es un servicio prestado por {name}, con NIF {taxId} y domicilio en {address}{registry}. Correo de contacto: {email}. Información facilitada conforme al artículo 10 de la Ley 34/2002, de servicios de la sociedad de la información y de comercio electrónico (LSSI).'
+        'ScrollPay es un servicio prestado por {name}, con NIF {taxId} y domicilio en {address}{registry}. Correo de contacto: {email}. Información facilitada conforme al artículo 10 de la Ley 34/2002, de servicios de la sociedad de la información y de comercio electrónico (LSSI).'
       ]],
       ['2. Objeto y aceptación', [
-        'Estas condiciones regulan el uso de WatchEarn: un servicio gratuito en el que ves vídeos cortos, completas tareas y juegos y acumulas monedas canjeables por dinero según el apartado 6. No hace falta ninguna compra, pago ni suscripción.',
+        'Estas condiciones regulan el uso de ScrollPay: un servicio gratuito en el que ves vídeos cortos, completas tareas y juegos y acumulas monedas canjeables por dinero según el apartado 6. No hace falta ninguna compra, pago ni suscripción.',
         'El servicio puede tener errores e interrupciones y cambiar conforme al apartado 9. No garantizamos su disponibilidad continuada.',
         'Para aceptar estas condiciones debes pulsar «He leído y acepto». Al aceptarlas declaras que cumples los requisitos del apartado 3. Sin aceptarlas no se reproducen vídeos ni se obtienen recompensas. Guardamos en tu navegador la versión aceptada y la fecha.',
         'No archivamos una copia individual de tu aceptación: estas condiciones están siempre disponibles en la página [Condiciones de uso](terms.html), donde puedes guardarlas o imprimirlas (artículo 27 LSSI). Se ofrecen en varios idiomas; si una traducción difiere, prevalece la versión en español.'
       ]],
       ['3. Quién puede participar', [
-        'Puedes usar WatchEarn si tienes {age} años o más, capacidad para contratar y resides en {countries}. Cada persona puede participar con un único perfil, es decir, un navegador en un dispositivo. Los saldos de distintos navegadores o dispositivos no se pueden sumar, transferir ni canjear juntos.'
+        'Puedes usar ScrollPay si tienes {age} años o más, capacidad para contratar y resides en {countries}. Cada persona puede participar con un único perfil, es decir, un navegador en un dispositivo. Los saldos de distintos navegadores o dispositivos no se pueden sumar, transferir ni canjear juntos.'
       ]],
       ['4. Cómo se obtienen monedas', [
         '**Visionado.** Cuenta el tiempo de reproducción activa de la primera visualización de cada aparición de un vídeo, abonado en intervalos de 3,5 a 6,5 segundos. No suman las pausas, la app en segundo plano, los saltos ni las repeticiones automáticas.',
@@ -50,7 +50,7 @@ Legal.add('es', {
         '{currencies}',
         '**Las recompensas disminuyen a medida que crece tu saldo:**',
         '{rules}',
-        '**Tiempo estimado.** Según nuestras simulaciones del sistema actual, llegar a la primera retirada requiere entre unas {range} horas de uso activo, con o sin bonus y juegos. Viendo solo vídeos: la mitad de la meta en menos de {m25} minutos, el 80 % en unas {h40} horas, el 90 % en unas {h45} horas, el 98 % en unas {h49} horas y la meta completa en unas {h50} horas. Con tres horas diarias son más de dos años. Son estimaciones, no una garantía, y WatchEarn no es un empleo ni una fuente de ingresos.'
+        '**Tiempo estimado.** Según nuestras simulaciones del sistema actual, llegar a la primera retirada requiere entre unas {range} horas de uso activo, con o sin bonus y juegos. Viendo solo vídeos: la mitad de la meta en menos de {m25} minutos, el 80 % en unas {h40} horas, el 90 % en unas {h45} horas, el 98 % en unas {h49} horas y la meta completa en unas {h50} horas. Con tres horas diarias son más de dos años. Son estimaciones, no una garantía, y ScrollPay no es un empleo ni una fuente de ingresos.'
       ]],
       ['6. Retiradas', [
         'Puedes solicitar una retirada de {amounts} cuando tu saldo alcance ese importe. Pagamos por PayPal o, en España, por Bizum, a una cuenta a tu nombre.',
@@ -64,9 +64,9 @@ Legal.add('es', {
         'Si detectamos estas conductas, podremos anular las monedas obtenidas indebidamente, rechazar las retiradas afectadas y excluirte del servicio, de forma proporcionada y comunicándote el motivo cuando sea posible. También podemos corregir los importes abonados por un error técnico manifiesto.'
       ]],
       ['8. Contenidos y propiedad intelectual', [
-        'Los vídeos pertenecen a sus creadores y titulares de derechos; WatchEarn muestra el nombre del creador y un enlace al original. No recibes ningún derecho sobre ellos: solo puedes verlos dentro de la app, para uso personal. Los enlaces a YouTube y a otros sitios llevan a servicios de terceros con sus propias condiciones.',
+        'Los vídeos pertenecen a sus creadores y titulares de derechos; ScrollPay muestra el nombre del creador y un enlace al original. No recibes ningún derecho sobre ellos: solo puedes verlos dentro de la app, para uso personal. Los enlaces a YouTube y a otros sitios llevan a servicios de terceros con sus propias condiciones.',
         'Si eres titular de derechos y consideras que un contenido se usa sin autorización, escríbenos a {email} indicando el contenido, tus derechos y tus datos de contacto. Lo retiraremos con diligencia cuando tengamos conocimiento efectivo de su ilicitud.',
-        'El nombre, el diseño y el código de WatchEarn pertenecen al titular, salvo los recursos de terceros con licencia propia, como las fuentes DM Sans y Manrope (SIL Open Font License).'
+        'El nombre, el diseño y el código de ScrollPay pertenecen al titular, salvo los recursos de terceros con licencia propia, como las fuentes DM Sans y Manrope (SIL Open Font License).'
       ]],
       ['9. Cambios y cierre del servicio', [
         'Podemos modificar el servicio, las recompensas o estas condiciones por motivos válidos (legales, técnicos, de seguridad, prevención del fraude, sostenibilidad o evolución del servicio), avisándote en la app con al menos 15 días de antelación, salvo cambios urgentes exigidos por la ley o la seguridad. Para seguir usando la app deberás aceptar la nueva versión; si no la aceptas, puedes dejar de usarla y solicitar las retiradas a las que ya tuvieras derecho. Las monedas ya obtenidas conservan su valor de canje.',
@@ -76,7 +76,7 @@ Legal.add('es', {
         'Respondemos de los daños causados por dolo o culpa grave y de aquellos cuya responsabilidad no pueda excluirse legalmente. No respondemos de interrupciones ajenas a nuestro control ni de la pérdida del saldo por borrar los datos del navegador, usar navegación privada o cambiar de dispositivo. Nada en estas condiciones limita tus derechos como consumidor.'
       ]],
       ['11. Duración, baja y desistimiento', [
-        'El contrato dura mientras uses el servicio y, como máximo, hasta el cierre del servicio. Puedes dejar de usar WatchEarn cuando quieras, sin coste, y borrar todos sus datos desde Ajustes → Borrar mis datos. También puedes desistir del contrato durante los 14 días naturales que reconoce el artículo 102 del Texto Refundido de la Ley General para la Defensa de los Consumidores y Usuarios, sin indicar el motivo: basta con dejar de usar la app y, si quieres, comunicárnoslo. Podemos resolver el contrato si incumples estas condiciones, comunicándote el motivo.'
+        'El contrato dura mientras uses el servicio y, como máximo, hasta el cierre del servicio. Puedes dejar de usar ScrollPay cuando quieras, sin coste, y borrar todos sus datos desde Ajustes → Borrar mis datos. También puedes desistir del contrato durante los 14 días naturales que reconoce el artículo 102 del Texto Refundido de la Ley General para la Defensa de los Consumidores y Usuarios, sin indicar el motivo: basta con dejar de usar la app y, si quieres, comunicárnoslo. Podemos resolver el contrato si incumples estas condiciones, comunicándote el motivo.'
       ]],
       ['12. Privacidad', [
         'El tratamiento de tus datos se describe en la [Política de privacidad](privacy.html).'
@@ -91,7 +91,7 @@ Legal.add('es', {
         'Si alguna cláusula se declara nula, las demás seguirán vigentes y la afectada se sustituirá por la regulación legal aplicable.'
       ]],
       ['16. App para Android y publicidad', [
-        'WatchEarn también se ofrece como app para Android, con el mismo servicio y estas mismas condiciones. En la app, las referencias al navegador se entienden hechas a la app: tu saldo se guarda en ella y se pierde si borras sus datos o la desinstalas, y cada instalación en un dispositivo cuenta como un perfil (apartado 3).',
+        'ScrollPay también se ofrece como app para Android, con el mismo servicio y estas mismas condiciones. En la app, las referencias al navegador se entienden hechas a la app: tu saldo se guarda en ella y se pierde si borras sus datos o la desinstalas, y cada instalación en un dispositivo cuenta como un perfil (apartado 3).',
         'La app muestra publicidad servida por AppLovin y sus socios de mediación: **anuncios a pantalla completa** entre vídeos, como máximo cada pocos vídeos y sin monedas, y **vídeos con recompensa** opcionales, que eliges ver para obtener monedas extra en Recompensas (hasta {adsPerDay} al día) o para doblar un premio de cofre o un bonus de monedas. Un premio doblado tampoco supera {max} monedas.',
         'Las monedas de un vídeo con recompensa solo se abonan si AppLovin confirma que lo has visto completo. Si lo cierras antes o falla, no hay recompensa y el premio pendiente se conserva sin doblar. No garantizamos que siempre haya anuncios disponibles. Pulsar un anuncio es voluntario y no da monedas; generar visualizaciones o clics artificiales está prohibido (apartado 7). Los anuncios y lo que anuncian son responsabilidad de sus anunciantes.',
         'Los anuncios personalizados solo se muestran con tu consentimiento, que puedes cambiar en Ajustes; el tratamiento de tus datos se explica en la [Política de privacidad](privacy.html).'
@@ -101,7 +101,7 @@ Legal.add('es', {
   privacy: {
     title: 'Política de privacidad',
     summaryTitle: '**Lo esencial**',
-    intro: 'WatchEarn («nosotros») se compromete a proteger tu privacidad. Esta política explica qué información recogemos, cómo la usamos y cómo la protegemos cuando usas WatchEarn, incluidos los servicios de terceros integrados en la app.',
+    intro: 'ScrollPay («nosotros») se compromete a proteger tu privacidad. Esta política explica qué información recogemos, cómo la usamos y cómo la protegemos cuando usas ScrollPay, incluidos los servicios de terceros integrados en la app.',
     summary: [
       'No hay registro ni cuentas: tu progreso se guarda en tu dispositivo y no lo recibimos.',
       'Solo tratamos datos personales si nos escribes o solicitas una retirada.',
@@ -112,10 +112,10 @@ Legal.add('es', {
       ['1. Información que recogemos', [
         '**1.1 Datos personales.** Si nos envías una solicitud de retirada o nos escribes, tratamos tu correo electrónico, tu nombre, los datos de tu cuenta de cobro (número de Bizum o correo de PayPal), tu país de residencia, el código, importe y fecha de la solicitud y el contenido de los mensajes. Si es necesario para comprobar los requisitos, podemos pedirte información que acredite tu identidad, edad y residencia; solo la imprescindible.',
         '**1.2 Datos de uso.** La app guarda en el almacenamiento local de tu navegador tu saldo, movimientos, tareas, juegos, vídeos guardados, orden del feed, tiempo de visionado, premios pendientes, solicitudes de retirada, ajustes e idioma, y la versión y fecha de las condiciones aceptadas, en los registros `watchearn-v1`, `watchearn-terms` y `watchearn-language`. No se envían a nuestros servidores ni tenemos acceso a ellos.',
-        '**1.3 Datos del dispositivo.** En la app para Android, el SDK de publicidad de AppLovin recoge datos técnicos del dispositivo, como el identificador de publicidad, la dirección IP, el modelo y el sistema operativo (apartado 3). Si visitas la web de WatchEarn, el proveedor de alojamiento ({hosting}) recibe tu dirección IP, la página solicitada, la fecha y hora y datos técnicos del navegador para servirla y protegerla. La moneda y el idioma se eligen con la zona horaria y los idiomas de tu dispositivo, sin enviarlos a nadie ni usar tu ubicación.',
+        '**1.3 Datos del dispositivo.** En la app para Android, el SDK de publicidad de AppLovin recoge datos técnicos del dispositivo, como el identificador de publicidad, la dirección IP, el modelo y el sistema operativo (apartado 3). Si visitas la web de ScrollPay, el proveedor de alojamiento ({hosting}) recibe tu dirección IP, la página solicitada, la fecha y hora y datos técnicos del navegador para servirla y protegerla. La moneda y el idioma se eligen con la zona horaria y los idiomas de tu dispositivo, sin enviarlos a nadie ni usar tu ubicación.',
         '**1.4 Enlaces.** Si abres un vídeo original irás a YouTube, que trata tus datos según su propia política. Si usas Compartir, el título y el enlace se entregan a la función de compartir de tu dispositivo.',
         'No recogemos datos sensibles, como el origen étnico, las creencias religiosas, la salud o los datos biométricos, y te pedimos que no nos los envíes.',
-        '**Almacenamiento local y cookies.** WatchEarn no usa cookies. Los registros locales son estrictamente necesarios para prestar el servicio que solicitas, por lo que no requieren consentimiento (artículo 22.2 LSSI). La web no tiene analítica, publicidad ni seguimiento de terceros. En la app para Android, el SDK de AppLovin guarda y lee información en tu dispositivo para mostrar anuncios (apartado 3).'
+        '**Almacenamiento local y cookies.** ScrollPay no usa cookies. Los registros locales son estrictamente necesarios para prestar el servicio que solicitas, por lo que no requieren consentimiento (artículo 22.2 LSSI). La web no tiene analítica, publicidad ni seguimiento de terceros. En la app para Android, el SDK de AppLovin guarda y lee información en tu dispositivo para mostrar anuncios (apartado 3).'
       ]],
       ['2. Cómo usamos tu información', [
         [
@@ -148,7 +148,7 @@ Legal.add('es', {
         '**Transferencias internacionales.** Si algún proveedor trata datos fuera del Espacio Económico Europeo, lo hará con las garantías del capítulo V del RGPD, como una decisión de adecuación o las cláusulas contractuales tipo de la Comisión Europea.'
       ]],
       ['5. Seguridad y conservación', [
-        'Las páginas web de WatchEarn se sirven por HTTPS. Los correos con solicitudes de retirada y datos de pago se guardan en un buzón protegido al que solo accede el titular, y solo se usan para tramitar los pagos. Los datos de la app no se cifran en tu dispositivo: quien tenga acceso a él podría verlos o modificarlos. Ningún sistema garantiza una seguridad absoluta.',
+        'Las páginas web de ScrollPay se sirven por HTTPS. Los correos con solicitudes de retirada y datos de pago se guardan en un buzón protegido al que solo accede el titular, y solo se usan para tramitar los pagos. Los datos de la app no se cifran en tu dispositivo: quien tenga acceso a él podría verlos o modificarlos. Ningún sistema garantiza una seguridad absoluta.',
         '**Conservación.** Conservamos cada dato solo el tiempo necesario:',
         [
           'Datos de tu dispositivo: hasta que los borres.',
@@ -158,10 +158,10 @@ Legal.add('es', {
         ]
       ]],
       ['6. Menores de edad', [
-        'WatchEarn es solo para mayores de {age} años. Si sabemos que una solicitud procede de un menor, la rechazaremos y suprimiremos sus datos, salvo los que debamos conservar por ley.'
+        'ScrollPay es solo para mayores de {age} años. Si sabemos que una solicitud procede de un menor, la rechazaremos y suprimiremos sus datos, salvo los que debamos conservar por ley.'
       ]],
       ['7. Tus derechos y opciones', [
-        'Puedes usar WatchEarn sin darnos ningún dato personal: solo los necesitamos si nos escribes o solicitas una retirada.',
+        'Puedes usar ScrollPay sin darnos ningún dato personal: solo los necesitamos si nos escribes o solicitas una retirada.',
         'Puedes ejercer los derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad escribiendo a {email}. Respondemos en un mes, ampliable en dos meses más en casos complejos. Los datos de tu dispositivo puedes borrarlos tú mismo en Ajustes → Borrar mis datos. También puedes reclamar ante la [Agencia Española de Protección de Datos](https://www.aepd.es/) o ante la autoridad de protección de datos de tu país.'
       ]],
       ['8. Cambios', [

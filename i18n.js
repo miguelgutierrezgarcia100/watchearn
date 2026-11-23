@@ -52,10 +52,10 @@ const I18n = (() => {
     'Has completado tus giros de hoy. Vuelve mañana para otros tres.':'comeTomorrow',
     'Has descubierto todas las tarjetas de hoy.':'dailyLimit','Mañana tendrás tres nuevas.':'daily',
     'RASCA':'scratch','Rasca la tarjeta o usa el botón Descubrir':'reveal','Reproducir':'play',
-    'Navegación de escritorio':'clips','Navegación principal':'clips','WatchEarn, inicio':'clips',
+    'Navegación de escritorio':'clips','Navegación principal':'clips','ScrollPay, inicio':'clips',
     'Desliza para cambiar de vídeo':'swipe','Abrir cartera y progreso hacia 50 euros':'goalProgress',
     'Base':'base','Clips':'clips','Este clip de muestra no tiene audio':'soundOff',
-    'Comparte la dirección de WatchEarn desde tu navegador':'share',
+    'Comparte la dirección de ScrollPay desde tu navegador':'share',
     'A veces, perderse':'autumn','es el mejor plan.':'autumn',
     'Un momento para bajar el ritmo. 🍂':'autumn','Una pausa a pie de campo. ⚾':'baseball','Un momento de concentración en el aula. 📚':'classroom',
     'PEQUEÑAS ESCAPADAS':'clips','DENTRO DEL JUEGO':'clips','PEQUEÑOS GRANDES MOMENTOS':'clips'

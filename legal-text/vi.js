@@ -19,7 +19,7 @@ Legal.add('vi', {
     title: 'Điều khoản sử dụng',
     summaryTitle: '**Điều cốt lõi** (bản tóm tắt này không thay thế toàn văn):',
     summary: [
-      'WatchEarn miễn phí. Chỉ dành cho người từ {age} tuổi trở lên cư trú tại {countries}.',
+      'ScrollPay miễn phí. Chỉ dành cho người từ {age} tuổi trở lên cư trú tại {countries}.',
       '{c1} xu = {rate}. Lần rút đầu tiên là {goal} và được kiểm tra thủ công trước khi thanh toán.',
       '**Phần thưởng giảm dần.** Để đạt lần rút đầu tiên cần khoảng {range} giờ sử dụng thực tế; riêng 10% cuối của mục tiêu đã cần hơn {last} giờ. Đây không phải là nguồn thu nhập.',
       'Số dư của bạn chỉ được lưu trên thiết bị này (trong trình duyệt hoặc trong ứng dụng). Nếu bạn xóa dữ liệu, gỡ ứng dụng hoặc đổi thiết bị, số dư sẽ mất và chúng tôi không thể khôi phục.',
@@ -27,16 +27,16 @@ Legal.add('vi', {
     ],
     sections: [
       ['1. Nhà cung cấp dịch vụ', [
-        'WatchEarn do {name} cung cấp, mã số thuế {taxId}, địa chỉ {address}{registry}. Email liên hệ: {email}. Thông tin này được cung cấp theo Điều 10 Luật 34/2002 của Tây Ban Nha về dịch vụ xã hội thông tin và thương mại điện tử (LSSI).'
+        'ScrollPay do {name} cung cấp, mã số thuế {taxId}, địa chỉ {address}{registry}. Email liên hệ: {email}. Thông tin này được cung cấp theo Điều 10 Luật 34/2002 của Tây Ban Nha về dịch vụ xã hội thông tin và thương mại điện tử (LSSI).'
       ]],
       ['2. Đối tượng và chấp nhận', [
-        'Các điều khoản này điều chỉnh việc sử dụng WatchEarn: một dịch vụ miễn phí, nơi bạn xem video ngắn, hoàn thành nhiệm vụ và trò chơi, tích lũy xu có thể quy đổi thành tiền theo mục 6. Không cần mua hàng, thanh toán hay đăng ký.',
+        'Các điều khoản này điều chỉnh việc sử dụng ScrollPay: một dịch vụ miễn phí, nơi bạn xem video ngắn, hoàn thành nhiệm vụ và trò chơi, tích lũy xu có thể quy đổi thành tiền theo mục 6. Không cần mua hàng, thanh toán hay đăng ký.',
         'Dịch vụ có thể có lỗi, gián đoạn và thay đổi theo mục 9. Chúng tôi không đảm bảo dịch vụ luôn sẵn sàng.',
         'Để chấp nhận các điều khoản này, hãy nhấn «Tôi đã đọc và đồng ý». Khi chấp nhận, bạn xác nhận đáp ứng các yêu cầu tại mục 3. Nếu không chấp nhận, video sẽ không phát và bạn không nhận được phần thưởng. Chúng tôi lưu phiên bản đã chấp nhận và ngày chấp nhận trong trình duyệt của bạn.',
         'Chúng tôi không lưu trữ bản sao riêng về việc chấp nhận của bạn: các điều khoản này luôn có trên trang [Điều khoản sử dụng](terms.html), nơi bạn có thể lưu hoặc in (Điều 27 LSSI). Điều khoản có nhiều ngôn ngữ; nếu bản dịch có khác biệt, bản tiếng Tây Ban Nha được ưu tiên áp dụng.'
       ]],
       ['3. Ai có thể tham gia', [
-        'Bạn có thể dùng WatchEarn nếu từ {age} tuổi trở lên, có năng lực giao kết hợp đồng và cư trú tại {countries}. Mỗi người chỉ được tham gia bằng một hồ sơ, tức là một trình duyệt trên một thiết bị. Số dư ở các trình duyệt hoặc thiết bị khác nhau không thể cộng dồn, chuyển nhượng hay quy đổi cùng nhau.'
+        'Bạn có thể dùng ScrollPay nếu từ {age} tuổi trở lên, có năng lực giao kết hợp đồng và cư trú tại {countries}. Mỗi người chỉ được tham gia bằng một hồ sơ, tức là một trình duyệt trên một thiết bị. Số dư ở các trình duyệt hoặc thiết bị khác nhau không thể cộng dồn, chuyển nhượng hay quy đổi cùng nhau.'
       ]],
       ['4. Cách nhận xu', [
         '**Xem video.** Thời gian phát thực tế của lần xem đầu tiên ở mỗi lần video xuất hiện được tính, cộng theo các khoảng từ 3,5 đến 6,5 giây. Thời gian tạm dừng, ứng dụng chạy nền, tua và tự động phát lại không được tính.',
@@ -48,7 +48,7 @@ Legal.add('vi', {
         '{currencies}',
         '**Phần thưởng giảm dần khi số dư của bạn tăng:**',
         '{rules}',
-        '**Thời gian ước tính.** Theo mô phỏng của chúng tôi về hệ thống hiện tại, để đạt lần rút đầu tiên cần khoảng {range} giờ sử dụng thực tế, dù có hay không có thưởng và trò chơi. Chỉ xem video: nửa mục tiêu trong chưa đến {m25} phút, 80% trong khoảng {h40} giờ, 90% trong khoảng {h45} giờ, 98% trong khoảng {h49} giờ và toàn bộ mục tiêu trong khoảng {h50} giờ. Với ba giờ mỗi ngày, mất hơn hai năm. Đây là ước tính, không phải cam kết, và WatchEarn không phải là việc làm hay nguồn thu nhập.'
+        '**Thời gian ước tính.** Theo mô phỏng của chúng tôi về hệ thống hiện tại, để đạt lần rút đầu tiên cần khoảng {range} giờ sử dụng thực tế, dù có hay không có thưởng và trò chơi. Chỉ xem video: nửa mục tiêu trong chưa đến {m25} phút, 80% trong khoảng {h40} giờ, 90% trong khoảng {h45} giờ, 98% trong khoảng {h49} giờ và toàn bộ mục tiêu trong khoảng {h50} giờ. Với ba giờ mỗi ngày, mất hơn hai năm. Đây là ước tính, không phải cam kết, và ScrollPay không phải là việc làm hay nguồn thu nhập.'
       ]],
       ['6. Rút tiền', [
         'Bạn có thể yêu cầu rút {amounts} khi số dư đạt mức đó. Chúng tôi thanh toán qua PayPal hoặc, tại Tây Ban Nha, qua Bizum vào tài khoản đứng tên bạn.',
@@ -62,9 +62,9 @@ Legal.add('vi', {
         'Nếu phát hiện các hành vi này, chúng tôi có thể hủy xu nhận được không chính đáng, từ chối các lần rút liên quan và loại bạn khỏi dịch vụ, một cách tương xứng và báo lý do khi có thể. Chúng tôi cũng có thể điều chỉnh số tiền được cộng do lỗi kỹ thuật rõ ràng.'
       ]],
       ['8. Nội dung và sở hữu trí tuệ', [
-        'Video thuộc về người sáng tạo và chủ sở hữu quyền; WatchEarn hiển thị tên người sáng tạo và liên kết đến bản gốc. Bạn không nhận được quyền nào đối với chúng: bạn chỉ có thể xem trong ứng dụng, cho mục đích cá nhân. Liên kết đến YouTube và các trang khác dẫn tới dịch vụ của bên thứ ba có điều khoản riêng.',
+        'Video thuộc về người sáng tạo và chủ sở hữu quyền; ScrollPay hiển thị tên người sáng tạo và liên kết đến bản gốc. Bạn không nhận được quyền nào đối với chúng: bạn chỉ có thể xem trong ứng dụng, cho mục đích cá nhân. Liên kết đến YouTube và các trang khác dẫn tới dịch vụ của bên thứ ba có điều khoản riêng.',
         'Nếu bạn là chủ sở hữu quyền và cho rằng một nội dung bị sử dụng trái phép, hãy viết cho chúng tôi tại {email}, nêu rõ nội dung, quyền của bạn và thông tin liên hệ. Chúng tôi sẽ nhanh chóng gỡ bỏ khi thực sự biết việc sử dụng là trái pháp luật.',
-        'Tên, thiết kế và mã nguồn của WatchEarn thuộc về nhà cung cấp, trừ tài nguyên của bên thứ ba có giấy phép riêng, như phông chữ DM Sans và Manrope (SIL Open Font License).'
+        'Tên, thiết kế và mã nguồn của ScrollPay thuộc về nhà cung cấp, trừ tài nguyên của bên thứ ba có giấy phép riêng, như phông chữ DM Sans và Manrope (SIL Open Font License).'
       ]],
       ['9. Thay đổi và đóng dịch vụ', [
         'Chúng tôi có thể thay đổi dịch vụ, phần thưởng hoặc các điều khoản này vì lý do chính đáng (pháp lý, kỹ thuật, bảo mật, phòng chống gian lận, tính bền vững hoặc phát triển dịch vụ), thông báo trong ứng dụng ít nhất 15 ngày trước, trừ các thay đổi khẩn cấp do luật hoặc an ninh yêu cầu. Để tiếp tục dùng ứng dụng, bạn phải chấp nhận phiên bản mới; nếu không, bạn có thể ngừng sử dụng và yêu cầu các lần rút mà bạn đã có quyền. Xu đã nhận vẫn giữ giá trị quy đổi.',
@@ -74,7 +74,7 @@ Legal.add('vi', {
         'Chúng tôi chịu trách nhiệm về thiệt hại do cố ý hoặc lỗi nghiêm trọng và những thiệt hại mà pháp luật không cho phép loại trừ trách nhiệm. Chúng tôi không chịu trách nhiệm về gián đoạn ngoài tầm kiểm soát hoặc việc mất số dư do xóa dữ liệu trình duyệt, duyệt web riêng tư hoặc đổi thiết bị. Không điều gì trong các điều khoản này hạn chế quyền của bạn với tư cách người tiêu dùng.'
       ]],
       ['11. Thời hạn, ngừng sử dụng và rút khỏi hợp đồng', [
-        'Hợp đồng có hiệu lực khi bạn còn sử dụng dịch vụ và tối đa đến khi dịch vụ đóng. Bạn có thể ngừng dùng WatchEarn bất cứ lúc nào, miễn phí, và xóa toàn bộ dữ liệu tại Cài đặt → Xóa dữ liệu của tôi. Bạn cũng có thể rút khỏi hợp đồng trong 14 ngày theo lịch theo Điều 102 Luật chung của Tây Ban Nha về bảo vệ người tiêu dùng và người sử dụng mà không cần nêu lý do: chỉ cần ngừng dùng ứng dụng và, nếu muốn, báo cho chúng tôi. Chúng tôi có thể chấm dứt hợp đồng nếu bạn vi phạm các điều khoản này và sẽ nêu lý do.'
+        'Hợp đồng có hiệu lực khi bạn còn sử dụng dịch vụ và tối đa đến khi dịch vụ đóng. Bạn có thể ngừng dùng ScrollPay bất cứ lúc nào, miễn phí, và xóa toàn bộ dữ liệu tại Cài đặt → Xóa dữ liệu của tôi. Bạn cũng có thể rút khỏi hợp đồng trong 14 ngày theo lịch theo Điều 102 Luật chung của Tây Ban Nha về bảo vệ người tiêu dùng và người sử dụng mà không cần nêu lý do: chỉ cần ngừng dùng ứng dụng và, nếu muốn, báo cho chúng tôi. Chúng tôi có thể chấm dứt hợp đồng nếu bạn vi phạm các điều khoản này và sẽ nêu lý do.'
       ]],
       ['12. Quyền riêng tư', [
         'Việc xử lý dữ liệu của bạn được mô tả trong [Chính sách quyền riêng tư](privacy.html).'
@@ -89,7 +89,7 @@ Legal.add('vi', {
         'Nếu một điều khoản bị tuyên vô hiệu, các điều khoản khác vẫn có hiệu lực và điều khoản đó được thay bằng quy định pháp luật áp dụng.'
       ]],
       ['16. Ứng dụng Android và quảng cáo', [
-        'WatchEarn cũng được cung cấp dưới dạng ứng dụng Android, với cùng dịch vụ và cùng các điều khoản này. Trong ứng dụng, mọi đề cập đến trình duyệt được hiểu là đề cập đến ứng dụng: số dư của bạn được lưu trong ứng dụng và sẽ mất nếu bạn xóa dữ liệu hoặc gỡ ứng dụng, và mỗi lần cài đặt trên một thiết bị được tính là một hồ sơ (mục 3).',
+        'ScrollPay cũng được cung cấp dưới dạng ứng dụng Android, với cùng dịch vụ và cùng các điều khoản này. Trong ứng dụng, mọi đề cập đến trình duyệt được hiểu là đề cập đến ứng dụng: số dư của bạn được lưu trong ứng dụng và sẽ mất nếu bạn xóa dữ liệu hoặc gỡ ứng dụng, và mỗi lần cài đặt trên một thiết bị được tính là một hồ sơ (mục 3).',
         'Ứng dụng hiển thị quảng cáo do AppLovin và các đối tác dàn xếp của AppLovin cung cấp: **quảng cáo toàn màn hình** giữa các video, nhiều nhất là sau mỗi vài video và không có xu, và **video có thưởng** không bắt buộc mà bạn tự chọn xem để nhận thêm xu trong Phần thưởng (tối đa {adsPerDay} lần mỗi ngày) hoặc nhân đôi phần thưởng rương hay thưởng xu. Phần thưởng đã nhân đôi cũng không vượt quá {max} xu.',
         'Xu từ video có thưởng chỉ được cộng nếu AppLovin xác nhận bạn đã xem hết. Nếu bạn đóng sớm hoặc video bị lỗi, sẽ không có thưởng và phần thưởng đang chờ được giữ nguyên, không nhân đôi. Chúng tôi không bảo đảm lúc nào cũng có quảng cáo. Việc nhấn vào quảng cáo là tự nguyện và không mang lại xu; tạo lượt xem hoặc lượt nhấp giả bị cấm (mục 7). Quảng cáo và những gì được quảng cáo thuộc trách nhiệm của nhà quảng cáo.',
         'Quảng cáo cá nhân hóa chỉ được hiển thị khi có sự đồng ý của bạn, và bạn có thể thay đổi trong Cài đặt; cách xử lý dữ liệu của bạn được giải thích trong [Chính sách quyền riêng tư](privacy.html).'
@@ -99,7 +99,7 @@ Legal.add('vi', {
   privacy: {
     title: 'Chính sách quyền riêng tư',
     summaryTitle: '**Điều cốt lõi**',
-    intro: 'WatchEarn (“chúng tôi”) cam kết bảo vệ quyền riêng tư của bạn. Chính sách này giải thích chúng tôi thu thập thông tin gì, sử dụng và bảo vệ thông tin đó như thế nào khi bạn dùng WatchEarn, bao gồm các dịch vụ bên thứ ba được tích hợp trong ứng dụng.',
+    intro: 'ScrollPay (“chúng tôi”) cam kết bảo vệ quyền riêng tư của bạn. Chính sách này giải thích chúng tôi thu thập thông tin gì, sử dụng và bảo vệ thông tin đó như thế nào khi bạn dùng ScrollPay, bao gồm các dịch vụ bên thứ ba được tích hợp trong ứng dụng.',
     summary: [
       'Không cần đăng ký hay tài khoản: tiến độ của bạn được lưu trên thiết bị của bạn và chúng tôi không nhận được.',
       'Chúng tôi chỉ xử lý dữ liệu cá nhân nếu bạn liên hệ hoặc yêu cầu rút tiền.',
@@ -110,10 +110,10 @@ Legal.add('vi', {
       ['1. Thông tin chúng tôi thu thập', [
         '**1.1 Dữ liệu cá nhân.** Nếu bạn gửi yêu cầu rút tiền hoặc viết cho chúng tôi, chúng tôi xử lý email, tên, thông tin tài khoản nhận tiền (số Bizum hoặc email PayPal), quốc gia cư trú, mã, số tiền và ngày của yêu cầu cùng nội dung tin nhắn. Khi cần kiểm tra điều kiện, chúng tôi có thể yêu cầu thông tin chứng minh danh tính, tuổi và nơi cư trú, chỉ ở mức cần thiết.',
         '**1.2 Dữ liệu sử dụng.** Ứng dụng lưu trong bộ nhớ cục bộ của trình duyệt số dư, giao dịch, nhiệm vụ, trò chơi, video đã lưu, thứ tự bảng tin, thời gian xem, giải thưởng đang chờ, yêu cầu rút tiền, cài đặt và ngôn ngữ, cùng phiên bản và ngày chấp nhận điều khoản, trong các bản ghi `watchearn-v1`, `watchearn-terms` và `watchearn-language`. Dữ liệu này không được gửi đến máy chủ của chúng tôi và chúng tôi không truy cập được.',
-        '**1.3 Dữ liệu thiết bị.** Trong ứng dụng Android, SDK quảng cáo của AppLovin thu thập dữ liệu kỹ thuật từ thiết bị của bạn, như mã nhận dạng quảng cáo, địa chỉ IP, kiểu máy và hệ điều hành (mục 3). Nếu bạn truy cập trang web WatchEarn, nhà cung cấp dịch vụ lưu trữ ({hosting}) nhận địa chỉ IP, trang được yêu cầu, ngày giờ và dữ liệu kỹ thuật của trình duyệt để phục vụ và bảo vệ trang web. Tiền tệ và ngôn ngữ được chọn theo múi giờ và ngôn ngữ của thiết bị, không gửi cho ai và không dùng vị trí của bạn.',
+        '**1.3 Dữ liệu thiết bị.** Trong ứng dụng Android, SDK quảng cáo của AppLovin thu thập dữ liệu kỹ thuật từ thiết bị của bạn, như mã nhận dạng quảng cáo, địa chỉ IP, kiểu máy và hệ điều hành (mục 3). Nếu bạn truy cập trang web ScrollPay, nhà cung cấp dịch vụ lưu trữ ({hosting}) nhận địa chỉ IP, trang được yêu cầu, ngày giờ và dữ liệu kỹ thuật của trình duyệt để phục vụ và bảo vệ trang web. Tiền tệ và ngôn ngữ được chọn theo múi giờ và ngôn ngữ của thiết bị, không gửi cho ai và không dùng vị trí của bạn.',
         '**1.4 Liên kết.** Nếu mở video gốc, bạn sẽ đến YouTube, nơi dữ liệu được xử lý theo chính sách riêng của họ. Nếu dùng Chia sẻ, tiêu đề và liên kết được chuyển cho tính năng chia sẻ của thiết bị.',
         'Chúng tôi không thu thập dữ liệu nhạy cảm, như nguồn gốc dân tộc, niềm tin tôn giáo, sức khỏe hay dữ liệu sinh trắc học, và đề nghị bạn không gửi những dữ liệu đó cho chúng tôi.',
-        '**Lưu trữ cục bộ và cookie.** WatchEarn không dùng cookie. Các bản ghi cục bộ là thực sự cần thiết để cung cấp dịch vụ bạn yêu cầu nên không cần sự đồng ý (điều 22.2 LSSI). Trang web không có phân tích, quảng cáo hay theo dõi của bên thứ ba. Trong ứng dụng Android, SDK của AppLovin lưu và đọc thông tin trên thiết bị của bạn để hiển thị quảng cáo (mục 3).'
+        '**Lưu trữ cục bộ và cookie.** ScrollPay không dùng cookie. Các bản ghi cục bộ là thực sự cần thiết để cung cấp dịch vụ bạn yêu cầu nên không cần sự đồng ý (điều 22.2 LSSI). Trang web không có phân tích, quảng cáo hay theo dõi của bên thứ ba. Trong ứng dụng Android, SDK của AppLovin lưu và đọc thông tin trên thiết bị của bạn để hiển thị quảng cáo (mục 3).'
       ]],
       ['2. Cách chúng tôi sử dụng thông tin của bạn', [
         [
@@ -146,7 +146,7 @@ Legal.add('vi', {
         '**Chuyển dữ liệu quốc tế.** Nếu nhà cung cấp nào xử lý dữ liệu ngoài Khu vực Kinh tế Châu Âu, việc này sẽ có các biện pháp bảo vệ theo Chương V GDPR, như quyết định về mức độ bảo vệ tương xứng hoặc các điều khoản hợp đồng mẫu của Ủy ban Châu Âu.'
       ]],
       ['5. Bảo mật và thời gian lưu trữ', [
-        'Các trang web của WatchEarn được phục vụ qua HTTPS. Email chứa yêu cầu rút tiền và thông tin thanh toán được lưu trong hộp thư được bảo vệ, chỉ chủ sở hữu dịch vụ truy cập được, và chỉ dùng để xử lý thanh toán. Dữ liệu ứng dụng không được mã hóa trên thiết bị của bạn: bất kỳ ai truy cập được thiết bị đều có thể xem hoặc sửa. Không hệ thống nào đảm bảo an toàn tuyệt đối.',
+        'Các trang web của ScrollPay được phục vụ qua HTTPS. Email chứa yêu cầu rút tiền và thông tin thanh toán được lưu trong hộp thư được bảo vệ, chỉ chủ sở hữu dịch vụ truy cập được, và chỉ dùng để xử lý thanh toán. Dữ liệu ứng dụng không được mã hóa trên thiết bị của bạn: bất kỳ ai truy cập được thiết bị đều có thể xem hoặc sửa. Không hệ thống nào đảm bảo an toàn tuyệt đối.',
         '**Thời gian lưu trữ.** Chúng tôi chỉ lưu mỗi dữ liệu trong thời gian cần thiết:',
         [
           'Dữ liệu trên thiết bị: cho đến khi bạn xóa.',
@@ -156,10 +156,10 @@ Legal.add('vi', {
         ]
       ]],
       ['6. Người chưa thành niên', [
-        'WatchEarn chỉ dành cho người từ {age} tuổi trở lên. Nếu biết một yêu cầu đến từ người chưa thành niên, chúng tôi sẽ từ chối và xóa dữ liệu của họ, trừ dữ liệu phải lưu theo luật.'
+        'ScrollPay chỉ dành cho người từ {age} tuổi trở lên. Nếu biết một yêu cầu đến từ người chưa thành niên, chúng tôi sẽ từ chối và xóa dữ liệu của họ, trừ dữ liệu phải lưu theo luật.'
       ]],
       ['7. Quyền và lựa chọn của bạn', [
-        'Bạn có thể dùng WatchEarn mà không cung cấp bất kỳ dữ liệu cá nhân nào: chúng tôi chỉ cần khi bạn viết thư cho chúng tôi hoặc yêu cầu rút tiền.',
+        'Bạn có thể dùng ScrollPay mà không cung cấp bất kỳ dữ liệu cá nhân nào: chúng tôi chỉ cần khi bạn viết thư cho chúng tôi hoặc yêu cầu rút tiền.',
         'Bạn có thể thực hiện quyền truy cập, chỉnh sửa, xóa, phản đối, hạn chế xử lý và di chuyển dữ liệu bằng cách viết tới {email}. Chúng tôi trả lời trong một tháng, có thể gia hạn thêm hai tháng với trường hợp phức tạp. Bạn có thể tự xóa dữ liệu trên thiết bị tại Cài đặt → Xóa dữ liệu của tôi. Bạn cũng có thể khiếu nại với [Cơ quan Bảo vệ Dữ liệu Tây Ban Nha (AEPD)](https://www.aepd.es/) hoặc cơ quan bảo vệ dữ liệu tại quốc gia của bạn.'
       ]],
       ['8. Thay đổi', [

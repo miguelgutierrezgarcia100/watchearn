@@ -7,7 +7,7 @@
     if (picker) picker.innerHTML = I18n.languagePicker();
     await Legal.load();
     const title = Legal.title(kind);
-    document.title = `${title} · WatchEarn`;
+    document.title = `${title} · ScrollPay`;
     document.querySelector('h1').textContent = title;
     document.querySelector('#legal').innerHTML = kind === 'privacy' ? Legal.privacyHTML() : Legal.termsHTML();
     document.querySelector('[data-other]').textContent = Legal.title(kind === 'privacy' ? 'terms' : 'privacy');
